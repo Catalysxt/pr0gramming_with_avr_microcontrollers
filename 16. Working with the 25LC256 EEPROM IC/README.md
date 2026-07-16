@@ -10,7 +10,6 @@ An interactive bare-metal AVR program that demonstrates reading from and writing
 
 **Bill of materials:** ATmega328P, Microchip 24LC256 (8-pin DIP), 16 MHz crystal, two 4.7 kΩ pull-up resistors (SDA/SCL), USB-UART adapter.
 
-Full wiring table and ASCII schematic: [docs/hardware_connections.md](docs/hardware_connections.md)
 
 Key connections at a glance:
 
