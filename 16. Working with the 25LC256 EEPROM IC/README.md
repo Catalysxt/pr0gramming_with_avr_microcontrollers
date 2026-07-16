@@ -1,4 +1,4 @@
-# i2c_EEPROM_demo
+# Working with the 24LC256 EEPROM IC
 
 ## Overview
 
@@ -26,8 +26,6 @@ Key connections at a glance:
 ## Theory
 
 I2C is a two-wire open-drain bus (SDA + SCL) with pull-up resistors. The ATmega328P calls it TWI. The 24LC256 is addressed via a control byte (`1010 A2 A1 A0 R/W`); with all address pins grounded the write address is 0xA0 and read address is 0xA1. Reads require a "dummy write" to set the internal address counter followed by a Repeated START to switch bus direction. Writes trigger a 5 ms internal write cycle (Twc); the bus must stay idle until it completes.
-
-Full protocol and register breakdown: [docs/Theory.md](docs/Theory.md)
 
 ---
 
@@ -62,7 +60,7 @@ Requires `avr-gcc`, `avrdude`, and a USBasp programmer on the ISP header.
 
 Work through these steps in order to confirm the hardware and firmware are both working.
 
-1. Wire up the circuit per [docs/hardware_connections.md](docs/hardware_connections.md). Double-check that R1 and R2 (4.7 kΩ) are present on SDA and SCL — the bus will not work without them.
+1. Wire up the circuit.
 2. Flash the firmware: `make flash`. Avrdude should report `avrdude done. Thank you.`
 3. Open a serial terminal (PuTTY / minicom / screen) at **9600 8N1** on the adapter's COM port.
 4. The terminal should display:
