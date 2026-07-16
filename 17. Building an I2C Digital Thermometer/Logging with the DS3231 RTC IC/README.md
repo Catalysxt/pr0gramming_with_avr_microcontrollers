@@ -1,7 +1,5 @@
 # Logging Thermometer + DS3231
 
-**Status: Complete** — verified end-to-end on hardware (flash -> set clock -> log -> `make dump` -> `make plot`). See `docs/CHANGELOG.md` for the verification session and `testing/` for before/after plot screenshots.
-
 ## Overview
 
 Extends `logging_thermometer` with a DS3231 real-time clock so every stored reading carries a true wall-clock timestamp. Reads ambient temperature from an LM75 every N seconds (configurable), pairs it with the current time from a battery-backed DS3231, and stores both as a 7-byte record in a 24LC256 external I2C EEPROM. A host-side Python toolchain (`make dump`, `make plot`) pulls the log over serial and renders a matplotlib chart of temperature against real dates and times — proving the readings survive power loss *and* carry meaningful timestamps, unlike the original project's bare, unordered byte dump.
