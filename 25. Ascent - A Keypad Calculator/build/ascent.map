@@ -1,0 +1,1026 @@
+Archive member included to satisfy reference by file (symbol)
+
+C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_umulhisi3.o)
+                              src/buzzer.o (__umulhisi3)
+C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_mulsi3.o)
+                              src/calc.o (__mulsi3)
+C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_udivmodsi4.o)
+                              src/buzzer.o (__udivmodsi4)
+C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_divmodsi4.o)
+                              src/calc.o (__divmodsi4)
+C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_negsi2.o)
+                              C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_divmodsi4.o) (__negsi2)
+C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_exit.o)
+                              C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/../../../../avr/lib/avr5/crtatmega328p.o (exit)
+C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_copy_data.o)
+                              src/ascent.o (__do_copy_data)
+C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_clear_bss.o)
+                              src/ascent.o (__do_clear_bss)
+C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_muluhisi3.o)
+                              C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_mulsi3.o) (__muluhisi3)
+C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_muldi3.o)
+                              src/calc.o (__muldi3)
+C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_muldi3_6.o)
+                              C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_muldi3.o) (__muldi3_6)
+C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_adddi3.o)
+                              src/calc.o (__adddi3)
+
+Discarded input sections
+
+ .data          0x00000000        0x0 C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/../../../../avr/lib/avr5/crtatmega328p.o
+ .bss           0x00000000        0x0 C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/../../../../avr/lib/avr5/crtatmega328p.o
+ .text          0x00000000        0x0 src/ascent.o
+ .data          0x00000000        0x0 src/ascent.o
+ .bss           0x00000000        0x0 src/ascent.o
+ .text          0x00000000        0x0 src/buzzer.o
+ .data          0x00000000        0x0 src/buzzer.o
+ .bss           0x00000000        0x0 src/buzzer.o
+ .text.buzzer_tone_nb
+                0x00000000        0x8 src/buzzer.o
+ .text          0x00000000        0x0 src/calc.o
+ .data          0x00000000        0x0 src/calc.o
+ .bss           0x00000000        0x0 src/calc.o
+ .text          0x00000000        0x0 src/keypad.o
+ .data          0x00000000        0x0 src/keypad.o
+ .bss           0x00000000        0x0 src/keypad.o
+ .text          0x00000000        0x0 src/main.o
+ .data          0x00000000        0x0 src/main.o
+ .bss           0x00000000        0x0 src/main.o
+ .text          0x00000000        0x0 src/sleep.o
+ .data          0x00000000        0x0 src/sleep.o
+ .bss           0x00000000        0x0 src/sleep.o
+ .text          0x00000000        0x0 src/sys_tick.o
+ .data          0x00000000        0x0 src/sys_tick.o
+ .bss           0x00000000        0x0 src/sys_tick.o
+ .text          0x00000000        0x0 src/ui.o
+ .data          0x00000000        0x0 src/ui.o
+ .bss           0x00000000        0x0 src/ui.o
+ .text          0x00000000        0x0 ../../lcd/lcd_driver/lcd_driver.o
+ .data          0x00000000        0x0 ../../lcd/lcd_driver/lcd_driver.o
+ .bss           0x00000000        0x0 ../../lcd/lcd_driver/lcd_driver.o
+ .text.Lcd_ReturnHome
+                0x00000000       0x18 ../../lcd/lcd_driver/lcd_driver.o
+ .text.Lcd_EntryModeSet
+                0x00000000       0x12 ../../lcd/lcd_driver/lcd_driver.o
+ .text.Lcd_CursorShift
+                0x00000000       0x12 ../../lcd/lcd_driver/lcd_driver.o
+ .text.Lcd_WriteString
+                0x00000000       0x2c ../../lcd/lcd_driver/lcd_driver.o
+ .text.Lcd_WriteCustomChar
+                0x00000000       0x56 ../../lcd/lcd_driver/lcd_driver.o
+ .text.Lcd_ReadData
+                0x00000000       0x5c ../../lcd/lcd_driver/lcd_driver.o
+ .text.Lcd_ReadBusyFlag
+                0x00000000       0x6e ../../lcd/lcd_driver/lcd_driver.o
+ .text          0x00000000        0x0 C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_umulhisi3.o)
+ .data          0x00000000        0x0 C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_umulhisi3.o)
+ .bss           0x00000000        0x0 C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_umulhisi3.o)
+ .text.libgcc.div
+                0x00000000        0x0 C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_umulhisi3.o)
+ .text.libgcc   0x00000000        0x0 C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_umulhisi3.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_umulhisi3.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_umulhisi3.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_umulhisi3.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_umulhisi3.o)
+ .text          0x00000000        0x0 C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_mulsi3.o)
+ .data          0x00000000        0x0 C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_mulsi3.o)
+ .bss           0x00000000        0x0 C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_mulsi3.o)
+ .text.libgcc.div
+                0x00000000        0x0 C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_mulsi3.o)
+ .text.libgcc   0x00000000        0x0 C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_mulsi3.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_mulsi3.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_mulsi3.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_mulsi3.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_mulsi3.o)
+ .text          0x00000000        0x0 C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_udivmodsi4.o)
+ .data          0x00000000        0x0 C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_udivmodsi4.o)
+ .bss           0x00000000        0x0 C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_udivmodsi4.o)
+ .text.libgcc.mul
+                0x00000000        0x0 C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_udivmodsi4.o)
+ .text.libgcc   0x00000000        0x0 C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_udivmodsi4.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_udivmodsi4.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_udivmodsi4.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_udivmodsi4.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_udivmodsi4.o)
+ .text          0x00000000        0x0 C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_divmodsi4.o)
+ .data          0x00000000        0x0 C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_divmodsi4.o)
+ .bss           0x00000000        0x0 C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_divmodsi4.o)
+ .text.libgcc.mul
+                0x00000000        0x0 C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_divmodsi4.o)
+ .text.libgcc   0x00000000        0x0 C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_divmodsi4.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_divmodsi4.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_divmodsi4.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_divmodsi4.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_divmodsi4.o)
+ .text          0x00000000        0x0 C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_negsi2.o)
+ .data          0x00000000        0x0 C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_negsi2.o)
+ .bss           0x00000000        0x0 C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_negsi2.o)
+ .text.libgcc.mul
+                0x00000000        0x0 C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_negsi2.o)
+ .text.libgcc   0x00000000        0x0 C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_negsi2.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_negsi2.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_negsi2.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_negsi2.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_negsi2.o)
+ .text          0x00000000        0x0 C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_exit.o)
+ .data          0x00000000        0x0 C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_exit.o)
+ .bss           0x00000000        0x0 C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_exit.o)
+ .text.libgcc.mul
+                0x00000000        0x0 C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_exit.o)
+ .text.libgcc.div
+                0x00000000        0x0 C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_exit.o)
+ .text.libgcc   0x00000000        0x0 C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_exit.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_exit.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_exit.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_exit.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_exit.o)
+ .text          0x00000000        0x0 C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_copy_data.o)
+ .data          0x00000000        0x0 C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_copy_data.o)
+ .bss           0x00000000        0x0 C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc.mul
+                0x00000000        0x0 C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc.div
+                0x00000000        0x0 C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc   0x00000000        0x0 C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_copy_data.o)
+ .text          0x00000000        0x0 C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_clear_bss.o)
+ .data          0x00000000        0x0 C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_clear_bss.o)
+ .bss           0x00000000        0x0 C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc.mul
+                0x00000000        0x0 C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc.div
+                0x00000000        0x0 C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc   0x00000000        0x0 C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_clear_bss.o)
+ .text          0x00000000        0x0 C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_muluhisi3.o)
+ .data          0x00000000        0x0 C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_muluhisi3.o)
+ .bss           0x00000000        0x0 C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_muluhisi3.o)
+ .text.libgcc.div
+                0x00000000        0x0 C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_muluhisi3.o)
+ .text.libgcc   0x00000000        0x0 C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_muluhisi3.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_muluhisi3.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_muluhisi3.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_muluhisi3.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_muluhisi3.o)
+ .text          0x00000000        0x0 C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_muldi3.o)
+ .data          0x00000000        0x0 C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_muldi3.o)
+ .bss           0x00000000        0x0 C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_muldi3.o)
+ .text.libgcc.div
+                0x00000000        0x0 C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_muldi3.o)
+ .text.libgcc   0x00000000        0x0 C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_muldi3.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_muldi3.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_muldi3.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_muldi3.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_muldi3.o)
+ .text          0x00000000        0x0 C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_muldi3_6.o)
+ .data          0x00000000        0x0 C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_muldi3_6.o)
+ .bss           0x00000000        0x0 C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_muldi3_6.o)
+ .text.libgcc.div
+                0x00000000        0x0 C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_muldi3_6.o)
+ .text.libgcc   0x00000000        0x0 C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_muldi3_6.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_muldi3_6.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_muldi3_6.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_muldi3_6.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_muldi3_6.o)
+ .text          0x00000000        0x0 C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_adddi3.o)
+ .data          0x00000000        0x0 C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_adddi3.o)
+ .bss           0x00000000        0x0 C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_adddi3.o)
+ .text.libgcc.mul
+                0x00000000        0x0 C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_adddi3.o)
+ .text.libgcc.div
+                0x00000000        0x0 C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_adddi3.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_adddi3.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_adddi3.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_adddi3.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_adddi3.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+text             0x00000000         0x00008000         xr
+data             0x00800100         0x00000800         rw!x
+eeprom           0x00810000         0x00000400         rw!x
+fuse             0x00820000         0x00000003         rw!x
+lock             0x00830000         0x00000400         rw!x
+signature        0x00840000         0x00000400         rw!x
+user_signatures  0x00850000         0x00000400         rw!x
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+Address of section .data set to 0x800100
+LOAD C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/../../../../avr/lib/avr5/crtatmega328p.o
+LOAD src/ascent.o
+LOAD src/buzzer.o
+LOAD src/calc.o
+LOAD src/keypad.o
+LOAD src/main.o
+LOAD src/sleep.o
+LOAD src/sys_tick.o
+LOAD src/ui.o
+LOAD ../../lcd/lcd_driver/lcd_driver.o
+START GROUP
+LOAD C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a
+LOAD C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/../../../../avr/lib/avr5\libm.a
+LOAD C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/../../../../avr/lib/avr5\libc.a
+LOAD C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/../../../../avr/lib/avr5\libatmega328p.a
+END GROUP
+                [0x00000000]                      __TEXT_REGION_ORIGIN__ = DEFINED (__TEXT_REGION_ORIGIN__)?__TEXT_REGION_ORIGIN__:0x0
+                [0x00008000]                      __TEXT_REGION_LENGTH__ = DEFINED (__TEXT_REGION_LENGTH__)?__TEXT_REGION_LENGTH__:0x20000
+                [0x00800100]                      __DATA_REGION_ORIGIN__ = DEFINED (__DATA_REGION_ORIGIN__)?__DATA_REGION_ORIGIN__:0x800060
+                [0x00000800]                      __DATA_REGION_LENGTH__ = DEFINED (__DATA_REGION_LENGTH__)?__DATA_REGION_LENGTH__:0xffa0
+                [0x00000400]                      __EEPROM_REGION_LENGTH__ = DEFINED (__EEPROM_REGION_LENGTH__)?__EEPROM_REGION_LENGTH__:0x10000
+                [0x00000003]                      __FUSE_REGION_LENGTH__ = DEFINED (__FUSE_REGION_LENGTH__)?__FUSE_REGION_LENGTH__:0x400
+                0x00000400                        __LOCK_REGION_LENGTH__ = DEFINED (__LOCK_REGION_LENGTH__)?__LOCK_REGION_LENGTH__:0x400
+                0x00000400                        __SIGNATURE_REGION_LENGTH__ = DEFINED (__SIGNATURE_REGION_LENGTH__)?__SIGNATURE_REGION_LENGTH__:0x400
+                0x00000400                        __USER_SIGNATURE_REGION_LENGTH__ = DEFINED (__USER_SIGNATURE_REGION_LENGTH__)?__USER_SIGNATURE_REGION_LENGTH__:0x400
+
+.hash
+ *(.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text)
+ *(.rel.text.*)
+ *(.rel.gnu.linkonce.t*)
+
+.rela.text
+ *(.rela.text)
+ *(.rela.text.*)
+ *(.rela.gnu.linkonce.t*)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata)
+ *(.rel.rodata.*)
+ *(.rel.gnu.linkonce.r*)
+
+.rela.rodata
+ *(.rela.rodata)
+ *(.rela.rodata.*)
+ *(.rela.gnu.linkonce.r*)
+
+.rel.data
+ *(.rel.data)
+ *(.rel.data.*)
+ *(.rel.gnu.linkonce.d*)
+
+.rela.data
+ *(.rela.data)
+ *(.rela.data.*)
+ *(.rela.gnu.linkonce.d*)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.bss
+ *(.rel.bss)
+
+.rela.bss
+ *(.rela.bss)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.text           0x00000000     0x13f6
+ *(.vectors)
+ .vectors       0x00000000       0x68 C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/../../../../avr/lib/avr5/crtatmega328p.o
+                0x00000000                __vector_default
+                0x00000000                __vectors
+ *(.vectors)
+ *(.progmem.gcc*)
+                0x00000068                        . = ALIGN (0x2)
+                0x00000068                        __trampolines_start = .
+ *(.trampolines)
+ .trampolines   0x00000068        0x0 linker stubs
+ *(.trampolines*)
+                0x00000068                        __trampolines_end = .
+ *libprintf_flt.a:*(.progmem.data)
+ *libc.a:*(.progmem.data)
+ *(.progmem.*)
+ .progmem.data.SFX_ERROR
+                0x00000068        0x4 src/buzzer.o
+                0x00000068                SFX_ERROR
+ .progmem.data.SFX_CLEAR
+                0x0000006c        0x8 src/buzzer.o
+                0x0000006c                SFX_CLEAR
+ .progmem.data.SFX_EQUALS
+                0x00000074        0xc src/buzzer.o
+                0x00000074                SFX_EQUALS
+ .progmem.data.SFX_OPERATOR
+                0x00000080        0x4 src/buzzer.o
+                0x00000080                SFX_OPERATOR
+ .progmem.data.SFX_DIGIT
+                0x00000084        0x4 src/buzzer.o
+                0x00000084                SFX_DIGIT
+                0x00000088                        . = ALIGN (0x2)
+ *(.lowtext)
+ *(.lowtext*)
+                0x00000088                        __ctors_start = .
+ *(.ctors)
+                0x00000088                        __ctors_end = .
+                0x00000088                        __dtors_start = .
+ *(.dtors)
+                0x00000088                        __dtors_end = .
+ SORT_BY_NAME(*)(.ctors)
+ SORT_BY_NAME(*)(.dtors)
+ *(.init0)
+ .init0         0x00000088        0x0 C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/../../../../avr/lib/avr5/crtatmega328p.o
+                0x00000088                __init
+ *(.init0)
+ *(.init1)
+ *(.init1)
+ *(.init2)
+ .init2         0x00000088        0xc C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/../../../../avr/lib/avr5/crtatmega328p.o
+ *(.init2)
+ *(.init3)
+ *(.init3)
+ *(.init4)
+ .init4         0x00000094       0x16 C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_copy_data.o)
+                0x00000094                __do_copy_data
+ .init4         0x000000aa       0x10 C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_clear_bss.o)
+                0x000000aa                __do_clear_bss
+ *(.init4)
+ *(.init5)
+ *(.init5)
+ *(.init6)
+ *(.init6)
+ *(.init7)
+ *(.init7)
+ *(.init8)
+ *(.init8)
+ *(.init9)
+ .init9         0x000000ba        0x8 C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/../../../../avr/lib/avr5/crtatmega328p.o
+ *(.init9)
+ *(.text)
+ .text          0x000000c2        0x4 C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/../../../../avr/lib/avr5/crtatmega328p.o
+                0x000000c2                __vector_22
+                0x000000c2                __vector_1
+                0x000000c2                __vector_24
+                0x000000c2                __vector_12
+                0x000000c2                __bad_interrupt
+                0x000000c2                __vector_6
+                0x000000c2                __vector_3
+                0x000000c2                __vector_23
+                0x000000c2                __vector_25
+                0x000000c2                __vector_11
+                0x000000c2                __vector_13
+                0x000000c2                __vector_17
+                0x000000c2                __vector_19
+                0x000000c2                __vector_7
+                0x000000c2                __vector_5
+                0x000000c2                __vector_9
+                0x000000c2                __vector_2
+                0x000000c2                __vector_21
+                0x000000c2                __vector_15
+                0x000000c2                __vector_8
+                0x000000c2                __vector_10
+                0x000000c2                __vector_16
+                0x000000c2                __vector_18
+                0x000000c2                __vector_20
+                0x000000c6                        . = ALIGN (0x2)
+ *(.text.*)
+ .text.expr_append_char
+                0x000000c6       0x1a src/ascent.o
+ .text.ascent_enter_impl
+                0x000000e0       0xa6 src/ascent.o
+ .text.enter_error
+                0x00000186       0x3a src/ascent.o
+ .text.handle_fresh
+                0x000001c0       0x48 src/ascent.o
+ .text.commit_operand_into_running_result.constprop.0
+                0x00000208       0x98 src/ascent.o
+ .text.ascent_enter
+                0x000002a0        0x4 src/ascent.o
+                0x000002a0                ascent_enter
+ .text.ascent_tick
+                0x000002a4      0x208 src/ascent.o
+                0x000002a4                ascent_tick
+ .text.ascent_check_idle_sleep
+                0x000004ac       0x1c src/ascent.o
+                0x000004ac                ascent_check_idle_sleep
+ .text.ascent_redraw
+                0x000004c8       0x6c src/ascent.o
+                0x000004c8                ascent_redraw
+ .text.buzzer_init
+                0x00000534        0x4 src/buzzer.o
+                0x00000534                buzzer_init
+ .text.buzzer_off
+                0x00000538       0x14 src/buzzer.o
+                0x00000538                buzzer_off
+ .text.start_tone_hw
+                0x0000054c       0xf4 src/buzzer.o
+ .text.play_note_at
+                0x00000640       0x26 src/buzzer.o
+ .text.buzzer_play
+                0x00000666       0x22 src/buzzer.o
+                0x00000666                buzzer_play
+ .text.buzzer_service
+                0x00000688       0x42 src/buzzer.o
+                0x00000688                buzzer_service
+ .text.calc_apply
+                0x000006ca      0x1f2 src/calc.o
+                0x000006ca                calc_apply
+ .text.calc_format
+                0x000008bc       0xe4 src/calc.o
+                0x000008bc                calc_format
+ .text.operand_clear
+                0x000009a0        0x6 src/calc.o
+                0x000009a0                operand_clear
+ .text.operand_append_digit
+                0x000009a6       0x24 src/calc.o
+                0x000009a6                operand_append_digit
+ .text.operand_to_int
+                0x000009ca       0xa8 src/calc.o
+                0x000009ca                operand_to_int
+ .text.keypad_rows_sleep
+                0x00000a72       0x2e src/keypad.o
+                0x00000a72                keypad_rows_sleep
+ .text.keypad_rows_wake
+                0x00000aa0       0x2a src/keypad.o
+                0x00000aa0                keypad_rows_wake
+ .text.keypad_init
+                0x00000aca       0x38 src/keypad.o
+                0x00000aca                keypad_init
+ .text.keypad_service
+                0x00000b02      0x144 src/keypad.o
+                0x00000b02                keypad_service
+ .text.keypad_consume_event
+                0x00000c46       0x12 src/keypad.o
+                0x00000c46                keypad_consume_event
+ .text.startup.main
+                0x00000c58       0x3a src/main.o
+                0x00000c58                main
+ .text.sleep_init
+                0x00000c92       0x14 src/sleep.o
+                0x00000c92                sleep_init
+ .text.__vector_4
+                0x00000ca6        0xc src/sleep.o
+                0x00000ca6                __vector_4
+ .text.sleep_enter_power_down
+                0x00000cb2       0x52 src/sleep.o
+                0x00000cb2                sleep_enter_power_down
+ .text.sys_tick_init
+                0x00000d04       0x12 src/sys_tick.o
+                0x00000d04                sys_tick_init
+ .text.__vector_14
+                0x00000d16       0x46 src/sys_tick.o
+                0x00000d16                __vector_14
+ .text.sys_millis
+                0x00000d5c       0x18 src/sys_tick.o
+                0x00000d5c                sys_millis
+ .text.sys_elapsed
+                0x00000d74       0x62 src/sys_tick.o
+                0x00000d74                sys_elapsed
+ .text.ui_write_row_n.constprop.0
+                0x00000dd6       0x6e src/ui.o
+ .text.ui_draw_expr_row
+                0x00000e44       0x3c src/ui.o
+ .text.ui_write_padded.constprop.0
+                0x00000e80       0x60 src/ui.o
+ .text.ui_show_splash
+                0x00000ee0       0x1e src/ui.o
+                0x00000ee0                ui_show_splash
+ .text.ui_show_expr_and_operand
+                0x00000efe       0x68 src/ui.o
+                0x00000efe                ui_show_expr_and_operand
+ .text.ui_show_expr_and_result
+                0x00000f66       0xae src/ui.o
+                0x00000f66                ui_show_expr_and_result
+ .text.ui_show_error
+                0x00001014       0x32 src/ui.o
+                0x00001014                ui_show_error
+ .text.ui_blank
+                0x00001046        0xe src/ui.o
+                0x00001046                ui_blank
+ .text.lcd_pulse_enable
+                0x00001054       0x16 ../../lcd/lcd_driver/lcd_driver.o
+ .text.lcd_write_nibble_raw
+                0x0000106a       0x14 ../../lcd/lcd_driver/lcd_driver.o
+ .text.lcd_wait_busy
+                0x0000107e       0x58 ../../lcd/lcd_driver/lcd_driver.o
+ .text.Lcd_WriteCommand
+                0x000010d6       0x48 ../../lcd/lcd_driver/lcd_driver.o
+                0x000010d6                Lcd_WriteCommand
+ .text.Lcd_Clear
+                0x0000111e       0x18 ../../lcd/lcd_driver/lcd_driver.o
+                0x0000111e                Lcd_Clear
+ .text.Lcd_Init
+                0x00001136       0xa2 ../../lcd/lcd_driver/lcd_driver.o
+                0x00001136                Lcd_Init
+ .text.Lcd_SetCursor
+                0x000011d8       0x1e ../../lcd/lcd_driver/lcd_driver.o
+                0x000011d8                Lcd_SetCursor
+ .text.Lcd_DisplayControl
+                0x000011f6       0x16 ../../lcd/lcd_driver/lcd_driver.o
+                0x000011f6                Lcd_DisplayControl
+ .text.Lcd_WriteData
+                0x0000120c       0x4a ../../lcd/lcd_driver/lcd_driver.o
+                0x0000120c                Lcd_WriteData
+ .text.Lcd_WriteChar
+                0x00001256        0x4 ../../lcd/lcd_driver/lcd_driver.o
+                0x00001256                Lcd_WriteChar
+ .text.libgcc.mul
+                0x0000125a       0x1e C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_umulhisi3.o)
+                0x0000125a                __umulhisi3
+ .text.libgcc.mul
+                0x00001278       0x20 C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_mulsi3.o)
+                0x00001278                __mulsi3
+ .text.libgcc.div
+                0x00001298       0x44 C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_udivmodsi4.o)
+                0x00001298                __udivmodsi4
+ .text.libgcc.div
+                0x000012dc       0x2e C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_divmodsi4.o)
+                0x000012dc                __divmodsi4
+ .text.libgcc.div
+                0x0000130a       0x10 C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_negsi2.o)
+                0x0000130a                __negsi2
+ .text.libgcc.mul
+                0x0000131a       0x16 C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_muluhisi3.o)
+                0x0000131a                __muluhisi3
+ .text.libgcc.mul
+                0x00001330       0x9e C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_muldi3.o)
+                0x00001330                __muldi3
+ .text.libgcc.mul
+                0x000013ce       0x12 C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_muldi3_6.o)
+                0x000013ce                __muldi3_6
+ .text.libgcc   0x000013e0       0x12 C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_adddi3.o)
+                0x000013e0                __adddi3
+                0x000013f2                        . = ALIGN (0x2)
+ *(.fini9)
+ .fini9         0x000013f2        0x0 C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_exit.o)
+                0x000013f2                _exit
+                0x000013f2                exit
+ *(.fini9)
+ *(.fini8)
+ *(.fini8)
+ *(.fini7)
+ *(.fini7)
+ *(.fini6)
+ *(.fini6)
+ *(.fini5)
+ *(.fini5)
+ *(.fini4)
+ *(.fini4)
+ *(.fini3)
+ *(.fini3)
+ *(.fini2)
+ *(.fini2)
+ *(.fini1)
+ *(.fini1)
+ *(.fini0)
+ .fini0         0x000013f2        0x4 C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_exit.o)
+ *(.fini0)
+ *(.hightext)
+ *(.hightext*)
+ *(.progmemx.*)
+                0x000013f6                        . = ALIGN (0x2)
+ *(.jumptables)
+ *(.jumptables*)
+                0x000013f6                        _etext = .
+
+.data           0x00800100       0x86 load address 0x000013f6
+                0x00800100                        PROVIDE (__data_start = .)
+ *(.data)
+ *(.data*)
+ .data.s_confirmed
+                0x00800100        0x1 src/keypad.o
+ .data.s_candidate
+                0x00800101        0x1 src/keypad.o
+ *(.gnu.linkonce.d*)
+ *(.rodata)
+ *(.rodata*)
+ .rodata.enter_error.str1.1
+                0x00800102       0x3b src/ascent.o
+                                 0x26 (size before relaxing)
+ .rodata.CSWTCH.33
+                0x0080013d        0x4 src/ascent.o
+ .rodata.k_fresh_operand_display
+                0x00800141        0xc src/ascent.o
+ .rodata.k_prescalers
+                0x0080014d       0x12 src/buzzer.o
+ .rodata.k_keymap
+                0x0080015f       0x10 src/keypad.o
+ .rodata.k_row  0x0080016f       0x14 src/keypad.o
+ .rodata.ui_show_splash.str1.1
+                0x00800183       0x15 src/ui.o
+ .rodata.row_base.0
+                0x00800183        0x2 ../../lcd/lcd_driver/lcd_driver.o
+ *(.gnu.linkonce.r*)
+                0x00800198                        . = ALIGN (0x2)
+ *fill*         0x00800185        0x1 
+                0x00800186                        _edata = .
+                0x00800186                        PROVIDE (__data_end = .)
+
+.bss            0x00800186       0x75
+                0x00800186                        PROVIDE (__bss_start = .)
+ *(.bss)
+ *(.bss*)
+ .bss.g_last_key_ms
+                0x00800186        0x4 src/ascent.o
+ .bss.g_state_entered_ms
+                0x0080018a        0x4 src/ascent.o
+ .bss.g_state   0x0080018e        0x1 src/ascent.o
+ .bss.g_expr_len
+                0x0080018f        0x1 src/ascent.o
+ .bss.g_expr    0x00800190       0x40 src/ascent.o
+ .bss.g_operand
+                0x008001d0        0xc src/ascent.o
+ .bss.g_op_pending
+                0x008001dc        0x1 src/ascent.o
+ .bss.g_running_result
+                0x008001dd        0x4 src/ascent.o
+ .bss.s_note_idx
+                0x008001e1        0x1 src/buzzer.o
+ .bss.s_note_count
+                0x008001e2        0x1 src/buzzer.o
+ .bss.s_notes   0x008001e3        0x2 src/buzzer.o
+ .bss.s_active  0x008001e5        0x1 src/buzzer.o
+ .bss.s_stop_at
+                0x008001e6        0x4 src/buzzer.o
+ .bss.s_pending
+                0x008001ea        0x2 src/keypad.o
+ .bss.s_long_fired
+                0x008001ec        0x1 src/keypad.o
+ .bss.s_press_start_ms
+                0x008001ed        0x4 src/keypad.o
+ .bss.s_candidate_count
+                0x008001f1        0x1 src/keypad.o
+ .bss.s_scan_anchor
+                0x008001f2        0x4 src/keypad.o
+ .bss.g_wake_flag
+                0x008001f6        0x1 src/sleep.o
+ .bss.g_ms      0x008001f7        0x4 src/sys_tick.o
+ *(COMMON)
+                0x008001fb                        PROVIDE (__bss_end = .)
+                0x000013f6                        __data_load_start = LOADADDR (.data)
+                0x0000147c                        __data_load_end = (__data_load_start + SIZEOF (.data))
+
+.noinit         0x008001fb        0x0
+                [!provide]                        PROVIDE (__noinit_start = .)
+ *(.noinit .noinit.* .gnu.linkonce.n.*)
+                [!provide]                        PROVIDE (__noinit_end = .)
+                0x008001fb                        _end = .
+                [!provide]                        PROVIDE (__heap_start = .)
+                0x00000000                        __flmap_init_label = DEFINED (__flmap_noinit_start)?__flmap_noinit_start:0x0
+                0x00000000                        __flmap = DEFINED (__flmap)?__flmap:0x0
+
+.eeprom         0x00810000        0x0
+ *(.eeprom*)
+                0x00810000                        __eeprom_end = .
+
+.fuse
+ *(.fuse)
+ *(.lfuse)
+ *(.hfuse)
+ *(.efuse)
+
+.lock
+ *(.lock*)
+
+.signature
+ *(.signature*)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x00000000       0x2f
+ *(.comment)
+ .comment       0x00000000       0x2f src/ascent.o
+                                 0x30 (size before relaxing)
+ .comment       0x0000002f       0x30 src/buzzer.o
+ .comment       0x0000002f       0x30 src/calc.o
+ .comment       0x0000002f       0x30 src/keypad.o
+ .comment       0x0000002f       0x30 src/main.o
+ .comment       0x0000002f       0x30 src/sleep.o
+ .comment       0x0000002f       0x30 src/sys_tick.o
+ .comment       0x0000002f       0x30 src/ui.o
+ .comment       0x0000002f       0x30 ../../lcd/lcd_driver/lcd_driver.o
+
+.note.gnu.avr.deviceinfo
+                0x00000000       0x40
+ .note.gnu.avr.deviceinfo
+                0x00000000       0x40 C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/../../../../avr/lib/avr5/crtatmega328p.o
+
+.gnu.build.attributes
+ *(.gnu.build.attributes .gnu.build.attributes.*)
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000      0x2b0
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x60 src/ascent.o
+ .debug_aranges
+                0x00000060       0x50 src/buzzer.o
+ .debug_aranges
+                0x000000b0       0x40 src/calc.o
+ .debug_aranges
+                0x000000f0       0x40 src/keypad.o
+ .debug_aranges
+                0x00000130       0x20 src/main.o
+ .debug_aranges
+                0x00000150       0x30 src/sleep.o
+ .debug_aranges
+                0x00000180       0x38 src/sys_tick.o
+ .debug_aranges
+                0x000001b8       0x58 src/ui.o
+ .debug_aranges
+                0x00000210       0xa0 ../../lcd/lcd_driver/lcd_driver.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000     0x3ac8
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000      0x5f4 C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/../../../../avr/lib/avr5/crtatmega328p.o
+ .debug_info    0x000005f4      0xcb4 src/ascent.o
+ .debug_info    0x000012a8      0x52b src/buzzer.o
+ .debug_info    0x000017d3      0x405 src/calc.o
+ .debug_info    0x00001bd8      0x527 src/keypad.o
+ .debug_info    0x000020ff      0x1cf src/main.o
+ .debug_info    0x000022ce      0x102 src/sleep.o
+ .debug_info    0x000023d0      0x1c2 src/sys_tick.o
+ .debug_info    0x00002592      0x7c8 src/ui.o
+ .debug_info    0x00002d5a      0xd6e ../../lcd/lcd_driver/lcd_driver.o
+
+.debug_abbrev   0x00000000     0x1853
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x5a2 C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/../../../../avr/lib/avr5/crtatmega328p.o
+ .debug_abbrev  0x000005a2      0x3bc src/ascent.o
+ .debug_abbrev  0x0000095e      0x24d src/buzzer.o
+ .debug_abbrev  0x00000bab      0x1f6 src/calc.o
+ .debug_abbrev  0x00000da1      0x28a src/keypad.o
+ .debug_abbrev  0x0000102b       0xd5 src/main.o
+ .debug_abbrev  0x00001100       0xaf src/sleep.o
+ .debug_abbrev  0x000011af      0x15b src/sys_tick.o
+ .debug_abbrev  0x0000130a      0x231 src/ui.o
+ .debug_abbrev  0x0000153b      0x318 ../../lcd/lcd_driver/lcd_driver.o
+
+.debug_line     0x00000000     0x368f
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x00000000       0x1d C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/../../../../avr/lib/avr5/crtatmega328p.o
+ .debug_line    0x0000001d      0x988 src/ascent.o
+ .debug_line    0x000009a5      0x49d src/buzzer.o
+ .debug_line    0x00000e42      0x6a4 src/calc.o
+ .debug_line    0x000014e6      0x6b2 src/keypad.o
+ .debug_line    0x00001b98       0xea src/main.o
+ .debug_line    0x00001c82      0x15e src/sleep.o
+ .debug_line    0x00001de0      0x219 src/sys_tick.o
+ .debug_line    0x00001ff9      0x614 src/ui.o
+ .debug_line    0x0000260d     0x1082 ../../lcd/lcd_driver/lcd_driver.o
+
+.debug_frame    0x00000000      0x6d8
+ *(.debug_frame)
+ .debug_frame   0x00000000      0x10c src/ascent.o
+ .debug_frame   0x0000010c       0xa8 src/buzzer.o
+ .debug_frame   0x000001b4      0x130 src/calc.o
+ .debug_frame   0x000002e4       0x70 src/keypad.o
+ .debug_frame   0x00000354       0x24 src/main.o
+ .debug_frame   0x00000378       0x44 src/sleep.o
+ .debug_frame   0x000003bc       0x8c src/sys_tick.o
+ .debug_frame   0x00000448      0x12c src/ui.o
+ .debug_frame   0x00000574      0x164 ../../lcd/lcd_driver/lcd_driver.o
+
+.debug_str      0x00000000      0xc0c
+ *(.debug_str)
+ .debug_str     0x00000000      0x208 C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/../../../../avr/lib/avr5/crtatmega328p.o
+ .debug_str     0x00000208      0xa04 src/ascent.o
+                                0x557 (size before relaxing)
+ .debug_str     0x00000c0c      0x286 src/buzzer.o
+ .debug_str     0x00000c0c      0x24b src/calc.o
+ .debug_str     0x00000c0c      0x2f5 src/keypad.o
+ .debug_str     0x00000c0c      0x26a src/main.o
+ .debug_str     0x00000c0c      0x1ac src/sleep.o
+ .debug_str     0x00000c0c      0x1b6 src/sys_tick.o
+ .debug_str     0x00000c0c      0x299 src/ui.o
+ .debug_str     0x00000c0c      0x382 ../../lcd/lcd_driver/lcd_driver.o
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_addr
+ *(.debug_addr)
+
+.debug_line_str
+                0x00000000      0x1ce
+ *(.debug_line_str)
+ .debug_line_str
+                0x00000000      0x1ce src/ascent.o
+                                0x115 (size before relaxing)
+ .debug_line_str
+                0x000001ce       0xf7 src/buzzer.o
+ .debug_line_str
+                0x000001ce       0xe4 src/calc.o
+ .debug_line_str
+                0x000001ce      0x14f src/keypad.o
+ .debug_line_str
+                0x000001ce       0xd9 src/main.o
+ .debug_line_str
+                0x000001ce       0xf7 src/sleep.o
+ .debug_line_str
+                0x000001ce      0x142 src/sys_tick.o
+ .debug_line_str
+                0x000001ce      0x100 src/ui.o
+ .debug_line_str
+                0x000001ce      0x176 ../../lcd/lcd_driver/lcd_driver.o
+
+.debug_loclists
+                0x00000000     0x1c72
+ *(.debug_loclists)
+ .debug_loclists
+                0x00000000      0x328 src/ascent.o
+ .debug_loclists
+                0x00000328      0x2d1 src/buzzer.o
+ .debug_loclists
+                0x000005f9      0x5f2 src/calc.o
+ .debug_loclists
+                0x00000beb      0x20f src/keypad.o
+ .debug_loclists
+                0x00000dfa       0xa9 src/sys_tick.o
+ .debug_loclists
+                0x00000ea3      0x403 src/ui.o
+ .debug_loclists
+                0x000012a6      0x9cc ../../lcd/lcd_driver/lcd_driver.o
+
+.debug_macro
+ *(.debug_macro)
+
+.debug_names
+ *(.debug_names)
+
+.debug_rnglists
+                0x00000000      0x349
+ *(.debug_rnglists)
+ .debug_rnglists
+                0x00000000       0xbf src/ascent.o
+ .debug_rnglists
+                0x000000bf       0x5b src/buzzer.o
+ .debug_rnglists
+                0x0000011a       0x67 src/calc.o
+ .debug_rnglists
+                0x00000181       0x77 src/keypad.o
+ .debug_rnglists
+                0x000001f8       0x13 src/main.o
+ .debug_rnglists
+                0x0000020b       0x1f src/sleep.o
+ .debug_rnglists
+                0x0000022a       0x25 src/sys_tick.o
+ .debug_rnglists
+                0x0000024f       0x86 src/ui.o
+ .debug_rnglists
+                0x000002d5       0x74 ../../lcd/lcd_driver/lcd_driver.o
+
+.debug_str_offsets
+ *(.debug_str_offsets)
+
+.debug_sup
+ *(.debug_sup)
+OUTPUT(build/ascent.elf elf32-avr)
+LOAD linker stubs
