@@ -1,0 +1,4 @@
+[wokwi]
+version = 1
+firmware = "build/pom_timer.hex"
+elf = "build/pom_timer.elf"

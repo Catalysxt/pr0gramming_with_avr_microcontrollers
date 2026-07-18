@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "author": "Ember",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "wokwi-arduino-uno", "id": "uno", "top": 0, "left": 0, "attrs": {} },
+    { "type": "wokwi-7segment", "id": "sevseg", "top": -160, "left": 150,
+      "attrs": { "digits": "4", "common": "anode" } },
+    { "type": "wokwi-ky-040", "id": "enc", "top": 150, "left": -120, "attrs": {} },
+    { "type": "wokwi-buzzer", "id": "bz", "top": 150, "left": 120, "attrs": {} },
+    { "type": "wokwi-led", "id": "lamp", "top": 40, "left": 260, "attrs": { "color": "yellow" } },
+    { "type": "wokwi-resistor", "id": "rlamp", "top": 40, "left": 200, "attrs": { "value": "330" } }
+  ],
+  "connections": [
+    [ "sevseg:A",  "uno:A0", "green",  [] ],
+    [ "sevseg:B",  "uno:A1", "green",  [] ],
+    [ "sevseg:C",  "uno:A2", "green",  [] ],
+    [ "sevseg:D",  "uno:A3", "green",  [] ],
+    [ "sevseg:E",  "uno:A4", "green",  [] ],
+    [ "sevseg:F",  "uno:A5", "green",  [] ],
+    [ "sevseg:G",  "uno:5",  "green",  [] ],
+    [ "sevseg:DP", "uno:6",  "green",  [] ],
+    [ "sevseg:COM1", "uno:10", "blue", [] ],
+    [ "sevseg:COM2", "uno:11", "blue", [] ],
+    [ "sevseg:COM3", "uno:12", "blue", [] ],
+    [ "sevseg:COM4", "uno:13", "blue", [] ],
+    [ "enc:CLK", "uno:2", "orange", [] ],
+    [ "enc:DT",  "uno:3", "orange", [] ],
+    [ "enc:SW",  "uno:4", "orange", [] ],
+    [ "enc:VCC", "uno:5V",  "red",   [] ],
+    [ "enc:GND", "uno:GND.1", "black", [] ],
+    [ "bz:1", "uno:9", "purple", [] ],
+    [ "bz:2", "uno:GND.2", "black", [] ],
+    [ "uno:8", "rlamp:1", "gray", [] ],
+    [ "rlamp:2", "lamp:A", "gray", [] ],
+    [ "lamp:C", "uno:GND.3", "black", [] ]
+  ],
+  "dependencies": {}
+}

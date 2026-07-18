@@ -1,0 +1,5 @@
+# Wokwi inputs, in order
+t~4s   set_control enc rotate=1     (attempt to wake from IDLE)
+t~37s  set_control enc rotate=5     (attempt CW turn)
+t~later set_control enc press=1      (attempt SW press)
+-- rebuilt with TEMP boot-into-SET_WORK, restarted sim --

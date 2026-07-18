@@ -1,0 +1,10 @@
+# wokwi_read_pin results (uno header pins). undefinedV = digital-only report.
+## Phase 1 — firmware booting into IDLE (production build)
+uno:8  (RELAY PB0)  = false   -> lamp OFF (correct in setup/idle)
+uno:2  (ENC_CLK)    = true    -> pull-up active (encoder_init ran)
+uno:4  (ENC_SW)     = true    -> pull-up active, not pressed
+uno:10..13 (COM1..4)= false x16 across samples -> display parked => MCU in PWR_DOWN sleep (correct IDLE behavior)
+
+## Phase 2 — TEMP build booting straight into SET_WORK (no sleep)
+uno:12 (COM3) = TRUE  (caught HIGH)  -> Timer2 multiplex ISR running, digit 3 selected
+uno:10,11,13  = false (other digits' slots) -> normal 25% duty multiplex
