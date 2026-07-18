@@ -1,0 +1,10 @@
+# EXPR_SURPRISED -- big round eyes, open round mouth (frozen, no idle motion)
+# hold: 20
+.#....#.
+#.#..#.#
+.#....#.
+........
+...##...
+..#..#..
+..#..#..
+...##...

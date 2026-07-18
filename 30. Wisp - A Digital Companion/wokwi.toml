@@ -1,0 +1,4 @@
+[wokwi]
+version = 1
+firmware = "build/dc_dbg.hex"
+elf = "build/dc_dbg.elf"

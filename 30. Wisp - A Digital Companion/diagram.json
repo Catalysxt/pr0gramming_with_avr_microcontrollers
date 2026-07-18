@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "author": "Claude Code",
+  "editor": "wokwi",
+  "comment": "Digital Companion. One wokwi-max7219-matrix (m0) is the 8x8 face on the SPI bus: MOSI=D11(PB3), CLK=D13(PB5), CS=D10(PB2). HC-SR04 (hc1) ECHO->D8(PB0/ICP1), TRIG->D4(PD4). Pet button (pet) on D9(PB1) to GND with firmware pull-up. Logic analyzer taps the loop-scope pin D3(PD3) and CS D10 to prove non-blocking timing. ADC0/A0 is left floating (PRNG entropy).",
+  "parts": [
+    { "type": "wokwi-arduino-uno", "id": "uno", "top": 200, "left": 0, "attrs": {} },
+
+    { "type": "wokwi-max7219-matrix", "id": "m0", "top": -180, "left": 100, "attrs": {} },
+
+    { "type": "wokwi-hc-sr04", "id": "hc1", "top": -100, "left": -260, "attrs": {} },
+
+    { "type": "wokwi-pushbutton", "id": "pet", "top": 400, "left": -220, "attrs": { "color": "green", "label": "PET" } },
+
+    { "type": "wokwi-logic-analyzer", "id": "la1", "top": 550, "left": 0, "attrs": {} }
+  ],
+  "connections": [
+    [ "uno:5V", "m0:VCC", "red", [ "v0" ] ],
+    [ "uno:5V", "hc1:VCC", "red", [ "v0" ] ],
+    [ "uno:GND.1", "m0:GND", "black", [ "v0" ] ],
+    [ "uno:GND.2", "hc1:GND", "black", [ "v0" ] ],
+
+    [ "uno:11", "m0:DIN", "green", [ "v0" ] ],
+    [ "uno:13", "m0:CLK", "yellow", [ "v0" ] ],
+    [ "uno:10", "m0:CS", "blue", [ "v0" ] ],
+
+    [ "uno:4", "hc1:TRIG", "orange", [ "v0" ] ],
+    [ "uno:8", "hc1:ECHO", "purple", [ "v0" ] ],
+
+    [ "uno:9", "pet:1.l", "green", [ "h0" ] ],
+    [ "uno:GND.3", "pet:2.l", "black", [ "h0" ] ],
+
+    [ "uno:3",  "la1:D0", "gold",  [ "v0" ] ],
+    [ "uno:10", "la1:D1", "blue",  [ "v0" ] ],
+    [ "uno:GND.4", "la1:GND", "black", [ "v0" ] ]
+  ]
+}

@@ -1,0 +1,1128 @@
+Archive member included to satisfy reference by file (symbol)
+
+C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_udivmodqi4.o)
+                              ../../extern_libraries/USART.o (__udivmodqi4)
+C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_udivmodhi4.o)
+                              src/app/animator.o (__udivmodhi4)
+C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_udivmodsi4.o)
+                              src/app/animator.o (__udivmodsi4)
+C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_exit.o)
+                              C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/../../../../avr/lib/avr5/crtatmega328p.o (exit)
+C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_tablejump2.o)
+                              src/app/mood.o (__tablejump2__)
+C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_copy_data.o)
+                              src/main.o (__do_copy_data)
+C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_clear_bss.o)
+                              src/main.o (__do_clear_bss)
+
+Discarded input sections
+
+ .data          0x00000000        0x0 C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/../../../../avr/lib/avr5/crtatmega328p.o
+ .bss           0x00000000        0x0 C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/../../../../avr/lib/avr5/crtatmega328p.o
+ .text          0x00000000        0x0 src/main.o
+ .data          0x00000000        0x0 src/main.o
+ .bss           0x00000000        0x0 src/main.o
+ .text          0x00000000        0x0 src/app/animator.o
+ .data          0x00000000        0x0 src/app/animator.o
+ .bss           0x00000000        0x0 src/app/animator.o
+ .text.animator_force_blink
+                0x00000000        0x8 src/app/animator.o
+ .text          0x00000000        0x0 src/app/face.o
+ .data          0x00000000        0x0 src/app/face.o
+ .bss           0x00000000        0x0 src/app/face.o
+ .text.face_blink
+                0x00000000        0x4 src/app/face.o
+ .text          0x00000000        0x0 src/app/fsm.o
+ .data          0x00000000        0x0 src/app/fsm.o
+ .bss           0x00000000        0x0 src/app/fsm.o
+ .text.fsm_current
+                0x00000000        0x6 src/app/fsm.o
+ .text.fsm_on_transition
+                0x00000000        0x2 src/app/fsm.o
+ .text          0x00000000        0x0 src/app/mood.o
+ .data          0x00000000        0x0 src/app/mood.o
+ .bss           0x00000000        0x0 src/app/mood.o
+ .text          0x00000000        0x0 src/app/prng.o
+ .data          0x00000000        0x0 src/app/prng.o
+ .bss           0x00000000        0x0 src/app/prng.o
+ .text          0x00000000        0x0 src/app/sensors.o
+ .data          0x00000000        0x0 src/app/sensors.o
+ .bss           0x00000000        0x0 src/app/sensors.o
+ .text          0x00000000        0x0 src/drivers/adc.o
+ .data          0x00000000        0x0 src/drivers/adc.o
+ .bss           0x00000000        0x0 src/drivers/adc.o
+ .text.adc_read
+                0x00000000        0xa src/drivers/adc.o
+ .text          0x00000000        0x0 src/drivers/buttons.o
+ .data          0x00000000        0x0 src/drivers/buttons.o
+ .bss           0x00000000        0x0 src/drivers/buttons.o
+ .text          0x00000000        0x0 src/drivers/dotmatrix.o
+ .data          0x00000000        0x0 src/drivers/dotmatrix.o
+ .bss           0x00000000        0x0 src/drivers/dotmatrix.o
+ .text.dotmatrix_clear
+                0x00000000       0x10 src/drivers/dotmatrix.o
+ .text.dotmatrix_set_row
+                0x00000000       0x10 src/drivers/dotmatrix.o
+ .text.dotmatrix_rows
+                0x00000000        0x6 src/drivers/dotmatrix.o
+ .text          0x00000000        0x0 src/drivers/timing.o
+ .data          0x00000000        0x0 src/drivers/timing.o
+ .bss           0x00000000        0x0 src/drivers/timing.o
+ .text          0x00000000        0x0 ../../extern_libraries/pin/pin.o
+ .data          0x00000000        0x0 ../../extern_libraries/pin/pin.o
+ .bss           0x00000000        0x0 ../../extern_libraries/pin/pin.o
+ .text          0x00000000        0x0 ../../extern_libraries/spi/spi.o
+ .data          0x00000000        0x0 ../../extern_libraries/spi/spi.o
+ .bss           0x00000000        0x0 ../../extern_libraries/spi/spi.o
+ .text          0x00000000        0x0 ../../extern_libraries/max7219/max7219.o
+ .data          0x00000000        0x0 ../../extern_libraries/max7219/max7219.o
+ .bss           0x00000000        0x0 ../../extern_libraries/max7219/max7219.o
+ .text.max7219_chain_set_digit
+                0x00000000       0xe6 ../../extern_libraries/max7219/max7219.o
+ .text          0x00000000        0x0 ../../extern_libraries/hcsr04/hcsr04.o
+ .data          0x00000000        0x0 ../../extern_libraries/hcsr04/hcsr04.o
+ .bss           0x00000000        0x0 ../../extern_libraries/hcsr04/hcsr04.o
+ .text          0x00000000        0x0 ../../extern_libraries/USART.o
+ .data          0x00000000        0x0 ../../extern_libraries/USART.o
+ .bss           0x00000000        0x0 ../../extern_libraries/USART.o
+ .text.initUSART
+                0x00000000       0x22 ../../extern_libraries/USART.o
+ .text.init_USART_with_interrupts
+                0x00000000       0x22 ../../extern_libraries/USART.o
+ .text.transmitByte
+                0x00000000        0xe ../../extern_libraries/USART.o
+ .text.receiveByte
+                0x00000000        0xe ../../extern_libraries/USART.o
+ .text.printString
+                0x00000000       0x3a ../../extern_libraries/USART.o
+ .text.readString
+                0x00000000       0x68 ../../extern_libraries/USART.o
+ .text.printByte
+                0x00000000       0x3c ../../extern_libraries/USART.o
+ .text.printWord
+                0x00000000       0x84 ../../extern_libraries/USART.o
+ .text.printBinaryByte
+                0x00000000       0x44 ../../extern_libraries/USART.o
+ .text.nibbleToHexCharacter
+                0x00000000        0xc ../../extern_libraries/USART.o
+ .text.printHexByte
+                0x00000000       0x1e ../../extern_libraries/USART.o
+ .text.getNumber
+                0x00000000       0x46 ../../extern_libraries/USART.o
+ .debug_info    0x00000000      0x3fe ../../extern_libraries/USART.o
+ .debug_abbrev  0x00000000      0x14c ../../extern_libraries/USART.o
+ .debug_loclists
+                0x00000000      0x286 ../../extern_libraries/USART.o
+ .debug_aranges
+                0x00000000       0x78 ../../extern_libraries/USART.o
+ .debug_rnglists
+                0x00000000       0x56 ../../extern_libraries/USART.o
+ .debug_line    0x00000000      0x63c ../../extern_libraries/USART.o
+ .debug_str     0x00000000      0x23d ../../extern_libraries/USART.o
+ .debug_line_str
+                0x00000000      0x12e ../../extern_libraries/USART.o
+ .comment       0x00000000       0x30 ../../extern_libraries/USART.o
+ .debug_frame   0x00000000      0x160 ../../extern_libraries/USART.o
+ .text          0x00000000        0x0 C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_udivmodqi4.o)
+ .data          0x00000000        0x0 C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_udivmodqi4.o)
+ .bss           0x00000000        0x0 C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_udivmodqi4.o)
+ .text.libgcc.mul
+                0x00000000        0x0 C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_udivmodqi4.o)
+ .text.libgcc.div
+                0x00000000       0x18 C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_udivmodqi4.o)
+ .text.libgcc   0x00000000        0x0 C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_udivmodqi4.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_udivmodqi4.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_udivmodqi4.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_udivmodqi4.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_udivmodqi4.o)
+ .text          0x00000000        0x0 C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_udivmodhi4.o)
+ .data          0x00000000        0x0 C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_udivmodhi4.o)
+ .bss           0x00000000        0x0 C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_udivmodhi4.o)
+ .text.libgcc.mul
+                0x00000000        0x0 C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_udivmodhi4.o)
+ .text.libgcc   0x00000000        0x0 C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_udivmodhi4.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_udivmodhi4.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_udivmodhi4.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_udivmodhi4.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_udivmodhi4.o)
+ .text          0x00000000        0x0 C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_udivmodsi4.o)
+ .data          0x00000000        0x0 C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_udivmodsi4.o)
+ .bss           0x00000000        0x0 C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_udivmodsi4.o)
+ .text.libgcc.mul
+                0x00000000        0x0 C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_udivmodsi4.o)
+ .text.libgcc   0x00000000        0x0 C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_udivmodsi4.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_udivmodsi4.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_udivmodsi4.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_udivmodsi4.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_udivmodsi4.o)
+ .text          0x00000000        0x0 C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_exit.o)
+ .data          0x00000000        0x0 C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_exit.o)
+ .bss           0x00000000        0x0 C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_exit.o)
+ .text.libgcc.mul
+                0x00000000        0x0 C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_exit.o)
+ .text.libgcc.div
+                0x00000000        0x0 C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_exit.o)
+ .text.libgcc   0x00000000        0x0 C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_exit.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_exit.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_exit.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_exit.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_exit.o)
+ .text          0x00000000        0x0 C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_tablejump2.o)
+ .data          0x00000000        0x0 C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_tablejump2.o)
+ .bss           0x00000000        0x0 C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_tablejump2.o)
+ .text.libgcc.mul
+                0x00000000        0x0 C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_tablejump2.o)
+ .text.libgcc.div
+                0x00000000        0x0 C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_tablejump2.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_tablejump2.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_tablejump2.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_tablejump2.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_tablejump2.o)
+ .text          0x00000000        0x0 C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_copy_data.o)
+ .data          0x00000000        0x0 C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_copy_data.o)
+ .bss           0x00000000        0x0 C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc.mul
+                0x00000000        0x0 C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc.div
+                0x00000000        0x0 C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc   0x00000000        0x0 C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_copy_data.o)
+ .text          0x00000000        0x0 C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_clear_bss.o)
+ .data          0x00000000        0x0 C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_clear_bss.o)
+ .bss           0x00000000        0x0 C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc.mul
+                0x00000000        0x0 C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc.div
+                0x00000000        0x0 C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc   0x00000000        0x0 C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_clear_bss.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+text             0x00000000         0x00008000         xr
+data             0x00800100         0x00000800         rw!x
+eeprom           0x00810000         0x00000400         rw!x
+fuse             0x00820000         0x00000003         rw!x
+lock             0x00830000         0x00000400         rw!x
+signature        0x00840000         0x00000400         rw!x
+user_signatures  0x00850000         0x00000400         rw!x
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+Address of section .data set to 0x800100
+LOAD C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/../../../../avr/lib/avr5/crtatmega328p.o
+LOAD src/main.o
+LOAD src/app/animator.o
+LOAD src/app/face.o
+LOAD src/app/fsm.o
+LOAD src/app/mood.o
+LOAD src/app/prng.o
+LOAD src/app/sensors.o
+LOAD src/drivers/adc.o
+LOAD src/drivers/buttons.o
+LOAD src/drivers/dotmatrix.o
+LOAD src/drivers/timing.o
+LOAD ../../extern_libraries/pin/pin.o
+LOAD ../../extern_libraries/spi/spi.o
+LOAD ../../extern_libraries/max7219/max7219.o
+LOAD ../../extern_libraries/hcsr04/hcsr04.o
+LOAD ../../extern_libraries/USART.o
+START GROUP
+LOAD C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a
+LOAD C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/../../../../avr/lib/avr5\libm.a
+LOAD C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/../../../../avr/lib/avr5\libc.a
+LOAD C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/../../../../avr/lib/avr5\libatmega328p.a
+END GROUP
+                [0x00000000]                      __TEXT_REGION_ORIGIN__ = DEFINED (__TEXT_REGION_ORIGIN__)?__TEXT_REGION_ORIGIN__:0x0
+                [0x00008000]                      __TEXT_REGION_LENGTH__ = DEFINED (__TEXT_REGION_LENGTH__)?__TEXT_REGION_LENGTH__:0x20000
+                [0x00800100]                      __DATA_REGION_ORIGIN__ = DEFINED (__DATA_REGION_ORIGIN__)?__DATA_REGION_ORIGIN__:0x800060
+                [0x00000800]                      __DATA_REGION_LENGTH__ = DEFINED (__DATA_REGION_LENGTH__)?__DATA_REGION_LENGTH__:0xffa0
+                [0x00000400]                      __EEPROM_REGION_LENGTH__ = DEFINED (__EEPROM_REGION_LENGTH__)?__EEPROM_REGION_LENGTH__:0x10000
+                [0x00000003]                      __FUSE_REGION_LENGTH__ = DEFINED (__FUSE_REGION_LENGTH__)?__FUSE_REGION_LENGTH__:0x400
+                0x00000400                        __LOCK_REGION_LENGTH__ = DEFINED (__LOCK_REGION_LENGTH__)?__LOCK_REGION_LENGTH__:0x400
+                0x00000400                        __SIGNATURE_REGION_LENGTH__ = DEFINED (__SIGNATURE_REGION_LENGTH__)?__SIGNATURE_REGION_LENGTH__:0x400
+                0x00000400                        __USER_SIGNATURE_REGION_LENGTH__ = DEFINED (__USER_SIGNATURE_REGION_LENGTH__)?__USER_SIGNATURE_REGION_LENGTH__:0x400
+
+.hash
+ *(.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text)
+ *(.rel.text.*)
+ *(.rel.gnu.linkonce.t*)
+
+.rela.text
+ *(.rela.text)
+ *(.rela.text.*)
+ *(.rela.gnu.linkonce.t*)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata)
+ *(.rel.rodata.*)
+ *(.rel.gnu.linkonce.r*)
+
+.rela.rodata
+ *(.rela.rodata)
+ *(.rela.rodata.*)
+ *(.rela.gnu.linkonce.r*)
+
+.rel.data
+ *(.rel.data)
+ *(.rel.data.*)
+ *(.rel.gnu.linkonce.d*)
+
+.rela.data
+ *(.rela.data)
+ *(.rela.data.*)
+ *(.rela.gnu.linkonce.d*)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.bss
+ *(.rel.bss)
+
+.rela.bss
+ *(.rela.bss)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.text           0x00000000     0x1988
+ *(.vectors)
+ .vectors       0x00000000       0x68 C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/../../../../avr/lib/avr5/crtatmega328p.o
+                0x00000000                __vector_default
+                0x00000000                __vectors
+ *(.vectors)
+ *(.progmem.gcc*)
+                0x00000068                        . = ALIGN (0x2)
+                0x00000068                        __trampolines_start = .
+ *(.trampolines)
+ .trampolines   0x00000068        0x0 linker stubs
+ *(.trampolines*)
+                0x00000068                        __trampolines_end = .
+ *libprintf_flt.a:*(.progmem.data)
+ *libc.a:*(.progmem.data)
+ *(.progmem.*)
+ .progmem.data.BREATHING_CURVE
+                0x00000068        0xa src/app/animator.o
+ .progmem.data.EXPRESSIONS
+                0x00000072      0x132 src/app/animator.o
+                0x000001a4                        . = ALIGN (0x2)
+ *(.lowtext)
+ *(.lowtext*)
+                0x000001a4                        __ctors_start = .
+ *(.ctors)
+                0x000001a4                        __ctors_end = .
+                0x000001a4                        __dtors_start = .
+ *(.dtors)
+                0x000001a4                        __dtors_end = .
+ SORT_BY_NAME(*)(.ctors)
+ SORT_BY_NAME(*)(.dtors)
+ *(.init0)
+ .init0         0x000001a4        0x0 C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/../../../../avr/lib/avr5/crtatmega328p.o
+                0x000001a4                __init
+ *(.init0)
+ *(.init1)
+ *(.init1)
+ *(.init2)
+ .init2         0x000001a4        0xc C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/../../../../avr/lib/avr5/crtatmega328p.o
+ *(.init2)
+ *(.init3)
+ *(.init3)
+ *(.init4)
+ .init4         0x000001b0       0x16 C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_copy_data.o)
+                0x000001b0                __do_copy_data
+ .init4         0x000001c6       0x10 C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_clear_bss.o)
+                0x000001c6                __do_clear_bss
+ *(.init4)
+ *(.init5)
+ *(.init5)
+ *(.init6)
+ *(.init6)
+ *(.init7)
+ *(.init7)
+ *(.init8)
+ *(.init8)
+ *(.init9)
+ .init9         0x000001d6        0x8 C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/../../../../avr/lib/avr5/crtatmega328p.o
+ *(.init9)
+ *(.text)
+ .text          0x000001de        0x4 C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/../../../../avr/lib/avr5/crtatmega328p.o
+                0x000001de                __vector_22
+                0x000001de                __vector_1
+                0x000001de                __vector_24
+                0x000001de                __vector_12
+                0x000001de                __bad_interrupt
+                0x000001de                __vector_6
+                0x000001de                __vector_23
+                0x000001de                __vector_25
+                0x000001de                __vector_11
+                0x000001de                __vector_13
+                0x000001de                __vector_17
+                0x000001de                __vector_19
+                0x000001de                __vector_7
+                0x000001de                __vector_5
+                0x000001de                __vector_4
+                0x000001de                __vector_9
+                0x000001de                __vector_2
+                0x000001de                __vector_21
+                0x000001de                __vector_15
+                0x000001de                __vector_8
+                0x000001de                __vector_16
+                0x000001de                __vector_18
+                0x000001de                __vector_20
+                0x000001e2                        . = ALIGN (0x2)
+ *(.text.*)
+ .text.__vector_3
+                0x000001e2       0x36 src/main.o
+                0x000001e2                __vector_3
+ .text.startup.main
+                0x00000218      0x27c src/main.o
+                0x00000218                main
+ .text.schedule_next_blink
+                0x00000494       0x3a src/app/animator.o
+ .text.schedule_next_saccade
+                0x000004ce       0x3a src/app/animator.o
+ .text.compose  0x00000508      0x108 src/app/animator.o
+ .text.animator_init
+                0x00000610       0xa8 src/app/animator.o
+                0x00000610                animator_init
+ .text.animator_set_target
+                0x000006b8       0x4e src/app/animator.o
+                0x000006b8                animator_set_target
+ .text.animator_tick
+                0x00000706      0x212 src/app/animator.o
+                0x00000706                animator_tick
+ .text.animator_flush
+                0x00000918       0x2c src/app/animator.o
+                0x00000918                animator_flush
+ .text.face_init
+                0x00000944       0x6c src/app/face.o
+                0x00000944                face_init
+ .text.face_set_expression
+                0x000009b0        0x4 src/app/face.o
+                0x000009b0                face_set_expression
+ .text.face_tick
+                0x000009b4        0x4 src/app/face.o
+                0x000009b4                face_tick
+ .text.face_flush
+                0x000009b8        0x4 src/app/face.o
+                0x000009b8                face_flush
+ .text.try_edge
+                0x000009bc       0x7c src/app/fsm.o
+ .text.fsm_init
+                0x00000a38        0x6 src/app/fsm.o
+                0x00000a38                fsm_init
+ .text.fsm_step
+                0x00000a3e       0x54 src/app/fsm.o
+                0x00000a3e                fsm_step
+ .text.in_region
+                0x00000a92      0x20a src/app/mood.o
+ .text.mood_init
+                0x00000c9c        0xa src/app/mood.o
+                0x00000c9c                mood_init
+ .text.mood_nudge
+                0x00000ca6       0x5a src/app/mood.o
+                0x00000ca6                mood_nudge
+ .text.mood_decay
+                0x00000d00       0x2e src/app/mood.o
+                0x00000d00                mood_decay
+ .text.mood_get
+                0x00000d2e        0xa src/app/mood.o
+                0x00000d2e                mood_get
+ .text.mood_classify
+                0x00000d38       0x74 src/app/mood.o
+                0x00000d38                mood_classify
+ .text.prng_seed
+                0x00000dac       0x28 src/app/prng.o
+                0x00000dac                prng_seed
+ .text.prng_add_entropy
+                0x00000dd4       0x42 src/app/prng.o
+                0x00000dd4                prng_add_entropy
+ .text.prng_next
+                0x00000e16       0x74 src/app/prng.o
+                0x00000e16                prng_next
+ .text.prng_range
+                0x00000e8a       0x2c src/app/prng.o
+                0x00000e8a                prng_range
+ .text.sensors_init
+                0x00000eb6       0x32 src/app/sensors.o
+                0x00000eb6                sensors_init
+ .text.sensors_proximity_update
+                0x00000ee8       0x6c src/app/sensors.o
+                0x00000ee8                sensors_proximity_update
+ .text.sensors_pet
+                0x00000f54       0x96 src/app/sensors.o
+                0x00000f54                sensors_pet
+ .text.sensors_idle_tick
+                0x00000fea       0x66 src/app/sensors.o
+                0x00000fea                sensors_idle_tick
+ .text.adc_init
+                0x00001050        0xe src/drivers/adc.o
+                0x00001050                adc_init
+ .text.adc_select_channel
+                0x0000105e       0x10 src/drivers/adc.o
+                0x0000105e                adc_select_channel
+ .text.adc_start
+                0x0000106e        0xc src/drivers/adc.o
+                0x0000106e                adc_start
+ .text.adc_ready
+                0x0000107a        0xe src/drivers/adc.o
+                0x0000107a                adc_ready
+ .text.adc_sample_noise
+                0x00001088       0x34 src/drivers/adc.o
+                0x00001088                adc_sample_noise
+ .text.button_init
+                0x000010bc       0x6a src/drivers/buttons.o
+                0x000010bc                button_init
+ .text.button_poll
+                0x00001126       0x6a src/drivers/buttons.o
+                0x00001126                button_poll
+ .text.dotmatrix_set_rows
+                0x00001190       0x14 src/drivers/dotmatrix.o
+                0x00001190                dotmatrix_set_rows
+ .text.dotmatrix_flush
+                0x000011a4       0xcc src/drivers/dotmatrix.o
+                0x000011a4                dotmatrix_flush
+ .text.timing_init
+                0x00001270       0x12 src/drivers/timing.o
+                0x00001270                timing_init
+ .text.__vector_14
+                0x00001282       0x46 src/drivers/timing.o
+                0x00001282                __vector_14
+ .text.timing_ms
+                0x000012c8       0x18 src/drivers/timing.o
+                0x000012c8                timing_ms
+ .text.pin_set_output
+                0x000012e0       0x46 ../../extern_libraries/pin/pin.o
+                0x000012e0                pin_set_output
+ .text.pin_set_input
+                0x00001326       0x62 ../../extern_libraries/pin/pin.o
+                0x00001326                pin_set_input
+ .text.pin_high
+                0x00001388       0x46 ../../extern_libraries/pin/pin.o
+                0x00001388                pin_high
+ .text.pin_low  0x000013ce       0x48 ../../extern_libraries/pin/pin.o
+                0x000013ce                pin_low
+ .text.pin_read
+                0x00001416       0x46 ../../extern_libraries/pin/pin.o
+                0x00001416                pin_read
+ .text.spi_master_init
+                0x0000145c       0x12 ../../extern_libraries/spi/spi.o
+                0x0000145c                spi_master_init
+ .text.spi_transfer
+                0x0000146e        0xc ../../extern_libraries/spi/spi.o
+                0x0000146e                spi_transfer
+ .text.max7219_chain_write
+                0x0000147a       0xb6 ../../extern_libraries/max7219/max7219.o
+                0x0000147a                max7219_chain_write
+ .text.max7219_chain_broadcast
+                0x00001530       0xb0 ../../extern_libraries/max7219/max7219.o
+                0x00001530                max7219_chain_broadcast
+ .text.max7219_chain_set_intensity
+                0x000015e0       0x5c ../../extern_libraries/max7219/max7219.o
+                0x000015e0                max7219_chain_set_intensity
+ .text.max7219_chain_clear
+                0x0000163c       0x62 ../../extern_libraries/max7219/max7219.o
+                0x0000163c                max7219_chain_clear
+ .text.max7219_chain_init
+                0x0000169e       0xe6 ../../extern_libraries/max7219/max7219.o
+                0x0000169e                max7219_chain_init
+ .text.hcsr04_init
+                0x00001784       0x66 ../../extern_libraries/hcsr04/hcsr04.o
+                0x00001784                hcsr04_init
+ .text.hcsr04_trigger
+                0x000017ea       0x54 ../../extern_libraries/hcsr04/hcsr04.o
+                0x000017ea                hcsr04_trigger
+ .text.__vector_10
+                0x0000183e       0x72 ../../extern_libraries/hcsr04/hcsr04.o
+                0x0000183e                __vector_10
+ .text.hcsr04_ready
+                0x000018b0        0x6 ../../extern_libraries/hcsr04/hcsr04.o
+                0x000018b0                hcsr04_ready
+ .text.hcsr04_distance_cm
+                0x000018b6       0x44 ../../extern_libraries/hcsr04/hcsr04.o
+                0x000018b6                hcsr04_distance_cm
+ .text.libgcc.div
+                0x000018fa       0x28 C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_udivmodhi4.o)
+                0x000018fa                __udivmodhi4
+ .text.libgcc.div
+                0x00001922       0x44 C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_udivmodsi4.o)
+                0x00001922                __udivmodsi4
+ .text.libgcc   0x00001966        0xc C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_tablejump2.o)
+                0x00001966                __tablejump2__
+                0x00001972                        . = ALIGN (0x2)
+ *(.fini9)
+ .fini9         0x00001972        0x0 C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_exit.o)
+                0x00001972                _exit
+                0x00001972                exit
+ *(.fini9)
+ *(.fini8)
+ *(.fini8)
+ *(.fini7)
+ *(.fini7)
+ *(.fini6)
+ *(.fini6)
+ *(.fini5)
+ *(.fini5)
+ *(.fini4)
+ *(.fini4)
+ *(.fini3)
+ *(.fini3)
+ *(.fini2)
+ *(.fini2)
+ *(.fini1)
+ *(.fini1)
+ *(.fini0)
+ .fini0         0x00001972        0x4 C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_exit.o)
+ *(.fini0)
+ *(.hightext)
+ *(.hightext*)
+ *(.progmemx.*)
+                0x00001976                        . = ALIGN (0x2)
+ *(.jumptables)
+ *(.jumptables*)
+ .jumptables.gcc.in_region
+                0x00001976       0x12 src/app/mood.o
+                0x00001988                        _etext = .
+
+.data           0x00800100      0x11c load address 0x00001988
+                0x00800100                        PROVIDE (__data_start = .)
+ *(.data)
+ *(.data*)
+ .data.s_saccade_dir
+                0x00800100        0x1 src/app/animator.o
+ .data.s_state  0x00800101        0x4 src/app/prng.o
+ *(.gnu.linkonce.d*)
+ *(.rodata)
+ *(.rodata*)
+ .rodata.s_chain
+                0x00800105        0x8 src/main.o
+ .rodata.LOOP_SCOPE
+                0x0080010d        0x7 src/main.o
+ .rodata.HCSR04_TRIG
+                0x00800114        0x7 src/main.o
+ .rodata.PET_BUTTON
+                0x0080011b        0x7 src/main.o
+ .rodata.FSM_TABLE
+                0x00800122       0xf0 src/app/fsm.o
+ .rodata.PRIORITY
+                0x00800212        0x9 src/app/mood.o
+ *(.gnu.linkonce.r*)
+                0x0080021c                        . = ALIGN (0x2)
+ *fill*         0x0080021b        0x1 
+                0x0080021c                        _edata = .
+                0x0080021c                        PROVIDE (__data_end = .)
+
+.bss            0x0080021c       0x6e
+                0x0080021c                        PROVIDE (__bss_start = .)
+ *(.bss)
+ *(.bss*)
+ .bss.s_seed_ready
+                0x0080021c        0x1 src/main.o
+ .bss.s_seed_capture
+                0x0080021d        0x2 src/main.o
+ .bss.s_pet     0x0080021f        0xc src/main.o
+ .bss.s_saccade_left
+                0x0080022b        0x1 src/app/animator.o
+ .bss.s_next_saccade_tick
+                0x0080022c        0x4 src/app/animator.o
+ .bss.s_blink_left
+                0x00800230        0x1 src/app/animator.o
+ .bss.s_next_blink_tick
+                0x00800231        0x4 src/app/animator.o
+ .bss.s_tick    0x00800235        0x4 src/app/animator.o
+ .bss.s_hold_ticks
+                0x00800239        0x1 src/app/animator.o
+ .bss.s_frame_count
+                0x0080023a        0x1 src/app/animator.o
+ .bss.s_frame_timer
+                0x0080023b        0x1 src/app/animator.o
+ .bss.s_frame_index
+                0x0080023c        0x1 src/app/animator.o
+ .bss.s_morph_to
+                0x0080023d        0x8 src/app/animator.o
+ .bss.s_morph_from
+                0x00800245        0x8 src/app/animator.o
+ .bss.s_tween_k
+                0x0080024d        0x1 src/app/animator.o
+ .bss.s_tween_active
+                0x0080024e        0x1 src/app/animator.o
+ .bss.s_display
+                0x0080024f        0x8 src/app/animator.o
+ .bss.s_base    0x00800257        0x8 src/app/animator.o
+ .bss.s_target_expr
+                0x0080025f        0x1 src/app/animator.o
+ .bss.s_current_expr
+                0x00800260        0x1 src/app/animator.o
+ .bss.s_chain   0x00800261        0x8 src/app/animator.o
+ .bss.s_current
+                0x00800269        0x1 src/app/fsm.o
+ .bss.s_mood    0x0080026a        0x2 src/app/mood.o
+ .bss.s_pet_window_start
+                0x0080026c        0x4 src/app/sensors.o
+ .bss.s_pet_count
+                0x00800270        0x1 src/app/sensors.o
+ .bss.s_last_activity_ms
+                0x00800271        0x4 src/app/sensors.o
+ .bss.s_have_last
+                0x00800275        0x1 src/app/sensors.o
+ .bss.s_last_dist
+                0x00800276        0x2 src/app/sensors.o
+ .bss.s_fb      0x00800278        0x8 src/drivers/dotmatrix.o
+ .bss.s_ticks_ms
+                0x00800280        0x4 src/drivers/timing.o
+ .bss.s_waiting_fall
+                0x00800284        0x1 ../../extern_libraries/hcsr04/hcsr04.o
+ .bss.s_new_echo
+                0x00800285        0x1 ../../extern_libraries/hcsr04/hcsr04.o
+ .bss.s_width_ticks
+                0x00800286        0x2 ../../extern_libraries/hcsr04/hcsr04.o
+ .bss.s_rise_ticks
+                0x00800288        0x2 ../../extern_libraries/hcsr04/hcsr04.o
+ *(COMMON)
+                0x0080028a                        PROVIDE (__bss_end = .)
+                0x00001988                        __data_load_start = LOADADDR (.data)
+                0x00001aa4                        __data_load_end = (__data_load_start + SIZEOF (.data))
+
+.noinit         0x0080028a        0x0
+                [!provide]                        PROVIDE (__noinit_start = .)
+ *(.noinit .noinit.* .gnu.linkonce.n.*)
+                [!provide]                        PROVIDE (__noinit_end = .)
+                0x0080028a                        _end = .
+                [!provide]                        PROVIDE (__heap_start = .)
+                0x00000000                        __flmap_init_label = DEFINED (__flmap_noinit_start)?__flmap_noinit_start:0x0
+                0x00000000                        __flmap = DEFINED (__flmap)?__flmap:0x0
+
+.eeprom         0x00810000        0x0
+ *(.eeprom*)
+                0x00810000                        __eeprom_end = .
+
+.fuse
+ *(.fuse)
+ *(.lfuse)
+ *(.hfuse)
+ *(.efuse)
+
+.lock
+ *(.lock*)
+
+.signature
+ *(.signature*)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x00000000       0x2f
+ *(.comment)
+ .comment       0x00000000       0x2f src/main.o
+                                 0x30 (size before relaxing)
+ .comment       0x0000002f       0x30 src/app/animator.o
+ .comment       0x0000002f       0x30 src/app/face.o
+ .comment       0x0000002f       0x30 src/app/fsm.o
+ .comment       0x0000002f       0x30 src/app/mood.o
+ .comment       0x0000002f       0x30 src/app/prng.o
+ .comment       0x0000002f       0x30 src/app/sensors.o
+ .comment       0x0000002f       0x30 src/drivers/adc.o
+ .comment       0x0000002f       0x30 src/drivers/buttons.o
+ .comment       0x0000002f       0x30 src/drivers/dotmatrix.o
+ .comment       0x0000002f       0x30 src/drivers/timing.o
+ .comment       0x0000002f       0x30 ../../extern_libraries/pin/pin.o
+ .comment       0x0000002f       0x30 ../../extern_libraries/spi/spi.o
+ .comment       0x0000002f       0x30 ../../extern_libraries/max7219/max7219.o
+ .comment       0x0000002f       0x30 ../../extern_libraries/hcsr04/hcsr04.o
+
+.note.gnu.avr.deviceinfo
+                0x00000000       0x40
+ .note.gnu.avr.deviceinfo
+                0x00000000       0x40 C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/../../../../avr/lib/avr5/crtatmega328p.o
+
+.gnu.build.attributes
+ *(.gnu.build.attributes .gnu.build.attributes.*)
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000      0x388
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x28 src/main.o
+ .debug_aranges
+                0x00000028       0x58 src/app/animator.o
+ .debug_aranges
+                0x00000080       0x40 src/app/face.o
+ .debug_aranges
+                0x000000c0       0x40 src/app/fsm.o
+ .debug_aranges
+                0x00000100       0x48 src/app/mood.o
+ .debug_aranges
+                0x00000148       0x38 src/app/prng.o
+ .debug_aranges
+                0x00000180       0x38 src/app/sensors.o
+ .debug_aranges
+                0x000001b8       0x48 src/drivers/adc.o
+ .debug_aranges
+                0x00000200       0x28 src/drivers/buttons.o
+ .debug_aranges
+                0x00000228       0x40 src/drivers/dotmatrix.o
+ .debug_aranges
+                0x00000268       0x30 src/drivers/timing.o
+ .debug_aranges
+                0x00000298       0x40 ../../extern_libraries/pin/pin.o
+ .debug_aranges
+                0x000002d8       0x28 ../../extern_libraries/spi/spi.o
+ .debug_aranges
+                0x00000300       0x48 ../../extern_libraries/max7219/max7219.o
+ .debug_aranges
+                0x00000348       0x40 ../../extern_libraries/hcsr04/hcsr04.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000     0x3987
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000      0x5f4 C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/../../../../avr/lib/avr5/crtatmega328p.o
+ .debug_info    0x000005f4      0x67d src/main.o
+ .debug_info    0x00000c71      0xc50 src/app/animator.o
+ .debug_info    0x000018c1      0x293 src/app/face.o
+ .debug_info    0x00001b54      0x3ed src/app/fsm.o
+ .debug_info    0x00001f41      0x3d4 src/app/mood.o
+ .debug_info    0x00002315      0x13b src/app/prng.o
+ .debug_info    0x00002450      0x26b src/app/sensors.o
+ .debug_info    0x000026bb      0x178 src/drivers/adc.o
+ .debug_info    0x00002833      0x216 src/drivers/buttons.o
+ .debug_info    0x00002a49      0x2ba src/drivers/dotmatrix.o
+ .debug_info    0x00002d03      0x171 src/drivers/timing.o
+ .debug_info    0x00002e74      0x191 ../../extern_libraries/pin/pin.o
+ .debug_info    0x00003005       0xb4 ../../extern_libraries/spi/spi.o
+ .debug_info    0x000030b9      0x570 ../../extern_libraries/max7219/max7219.o
+ .debug_info    0x00003629      0x35e ../../extern_libraries/hcsr04/hcsr04.o
+
+.debug_abbrev   0x00000000     0x1dfa
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x5a2 C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/../../../../avr/lib/avr5/crtatmega328p.o
+ .debug_abbrev  0x000005a2      0x1da src/main.o
+ .debug_abbrev  0x0000077c      0x367 src/app/animator.o
+ .debug_abbrev  0x00000ae3      0x16d src/app/face.o
+ .debug_abbrev  0x00000c50      0x286 src/app/fsm.o
+ .debug_abbrev  0x00000ed6      0x21d src/app/mood.o
+ .debug_abbrev  0x000010f3       0xf5 src/app/prng.o
+ .debug_abbrev  0x000011e8      0x113 src/app/sensors.o
+ .debug_abbrev  0x000012fb      0x143 src/drivers/adc.o
+ .debug_abbrev  0x0000143e      0x156 src/drivers/buttons.o
+ .debug_abbrev  0x00001594      0x19e src/drivers/dotmatrix.o
+ .debug_abbrev  0x00001732      0x13b src/drivers/timing.o
+ .debug_abbrev  0x0000186d      0x10b ../../extern_libraries/pin/pin.o
+ .debug_abbrev  0x00001978       0x85 ../../extern_libraries/spi/spi.o
+ .debug_abbrev  0x000019fd      0x1eb ../../extern_libraries/max7219/max7219.o
+ .debug_abbrev  0x00001be8      0x212 ../../extern_libraries/hcsr04/hcsr04.o
+
+.debug_line     0x00000000     0x3403
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x00000000       0x1d C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/../../../../avr/lib/avr5/crtatmega328p.o
+ .debug_line    0x0000001d      0x3cd src/main.o
+ .debug_line    0x000003ea      0xd08 src/app/animator.o
+ .debug_line    0x000010f2      0x10b src/app/face.o
+ .debug_line    0x000011fd      0x329 src/app/fsm.o
+ .debug_line    0x00001526      0x676 src/app/mood.o
+ .debug_line    0x00001b9c      0x1a9 src/app/prng.o
+ .debug_line    0x00001d45      0x317 src/app/sensors.o
+ .debug_line    0x0000205c      0x24d src/drivers/adc.o
+ .debug_line    0x000022a9      0x243 src/drivers/buttons.o
+ .debug_line    0x000024ec      0x2d0 src/drivers/dotmatrix.o
+ .debug_line    0x000027bc      0x18f src/drivers/timing.o
+ .debug_line    0x0000294b      0x1cf ../../extern_libraries/pin/pin.o
+ .debug_line    0x00002b1a       0xed ../../extern_libraries/spi/spi.o
+ .debug_line    0x00002c07      0x47f ../../extern_libraries/max7219/max7219.o
+ .debug_line    0x00003086      0x37d ../../extern_libraries/hcsr04/hcsr04.o
+
+.debug_frame    0x00000000      0x83c
+ *(.debug_frame)
+ .debug_frame   0x00000000       0x44 src/main.o
+ .debug_frame   0x00000044       0xec src/app/animator.o
+ .debug_frame   0x00000130       0x7c src/app/face.o
+ .debug_frame   0x000001ac       0x80 src/app/fsm.o
+ .debug_frame   0x0000022c       0x90 src/app/mood.o
+ .debug_frame   0x000002bc       0x70 src/app/prng.o
+ .debug_frame   0x0000032c       0x88 src/app/sensors.o
+ .debug_frame   0x000003b4       0x80 src/drivers/adc.o
+ .debug_frame   0x00000434       0x5c src/drivers/buttons.o
+ .debug_frame   0x00000490       0x94 src/drivers/dotmatrix.o
+ .debug_frame   0x00000524       0x54 src/drivers/timing.o
+ .debug_frame   0x00000578       0xbc ../../extern_libraries/pin/pin.o
+ .debug_frame   0x00000634       0x34 ../../extern_libraries/spi/spi.o
+ .debug_frame   0x00000668      0x140 ../../extern_libraries/max7219/max7219.o
+ .debug_frame   0x000007a8       0x94 ../../extern_libraries/hcsr04/hcsr04.o
+
+.debug_str      0x00000000      0xc92
+ *(.debug_str)
+ .debug_str     0x00000000      0x208 C:/microchip_avr_gcc_toolchain/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/../../../../avr/lib/avr5/crtatmega328p.o
+ .debug_str     0x00000208      0xa8a src/main.o
+                                0x49d (size before relaxing)
+ .debug_str     0x00000c92      0x4c0 src/app/animator.o
+ .debug_str     0x00000c92      0x2ba src/app/face.o
+ .debug_str     0x00000c92      0x29a src/app/fsm.o
+ .debug_str     0x00000c92      0x27d src/app/mood.o
+ .debug_str     0x00000c92      0x184 src/app/prng.o
+ .debug_str     0x00000c92      0x213 src/app/sensors.o
+ .debug_str     0x00000c92      0x1a0 src/drivers/adc.o
+ .debug_str     0x00000c92      0x1f1 src/drivers/buttons.o
+ .debug_str     0x00000c92      0x1dd src/drivers/dotmatrix.o
+ .debug_str     0x00000c92      0x196 src/drivers/timing.o
+ .debug_str     0x00000c92      0x18e ../../extern_libraries/pin/pin.o
+ .debug_str     0x00000c92      0x162 ../../extern_libraries/spi/spi.o
+ .debug_str     0x00000c92      0x264 ../../extern_libraries/max7219/max7219.o
+ .debug_str     0x00000c92      0x27a ../../extern_libraries/hcsr04/hcsr04.o
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_addr
+ *(.debug_addr)
+
+.debug_line_str
+                0x00000000      0x39c
+ *(.debug_line_str)
+ .debug_line_str
+                0x00000000      0x39c src/main.o
+                                0x1ec (size before relaxing)
+ .debug_line_str
+                0x0000039c      0x1b7 src/app/animator.o
+ .debug_line_str
+                0x0000039c      0x16f src/app/face.o
+ .debug_line_str
+                0x0000039c      0x11e src/app/fsm.o
+ .debug_line_str
+                0x0000039c      0x121 src/app/mood.o
+ .debug_line_str
+                0x0000039c      0x10d src/app/prng.o
+ .debug_line_str
+                0x0000039c      0x11d src/app/sensors.o
+ .debug_line_str
+                0x0000039c      0x112 src/drivers/adc.o
+ .debug_line_str
+                0x0000039c      0x149 src/drivers/buttons.o
+ .debug_line_str
+                0x0000039c      0x16e src/drivers/dotmatrix.o
+ .debug_line_str
+                0x0000039c      0x174 src/drivers/timing.o
+ .debug_line_str
+                0x0000039c      0x136 ../../extern_libraries/pin/pin.o
+ .debug_line_str
+                0x0000039c      0x130 ../../extern_libraries/spi/spi.o
+ .debug_line_str
+                0x0000039c      0x190 ../../extern_libraries/max7219/max7219.o
+ .debug_line_str
+                0x0000039c      0x1c1 ../../extern_libraries/hcsr04/hcsr04.o
+
+.debug_loclists
+                0x00000000     0x1567
+ *(.debug_loclists)
+ .debug_loclists
+                0x00000000      0x1a0 src/main.o
+ .debug_loclists
+                0x000001a0      0x53d src/app/animator.o
+ .debug_loclists
+                0x000006dd       0x46 src/app/face.o
+ .debug_loclists
+                0x00000723      0x11d src/app/fsm.o
+ .debug_loclists
+                0x00000840      0x477 src/app/mood.o
+ .debug_loclists
+                0x00000cb7       0xa4 src/app/prng.o
+ .debug_loclists
+                0x00000d5b      0x166 src/app/sensors.o
+ .debug_loclists
+                0x00000ec1       0x7b src/drivers/adc.o
+ .debug_loclists
+                0x00000f3c       0x97 src/drivers/buttons.o
+ .debug_loclists
+                0x00000fd3      0x107 src/drivers/dotmatrix.o
+ .debug_loclists
+                0x000010da       0x53 src/drivers/timing.o
+ .debug_loclists
+                0x0000112d       0xf0 ../../extern_libraries/pin/pin.o
+ .debug_loclists
+                0x0000121d       0x21 ../../extern_libraries/spi/spi.o
+ .debug_loclists
+                0x0000123e      0x278 ../../extern_libraries/max7219/max7219.o
+ .debug_loclists
+                0x000014b6       0xb1 ../../extern_libraries/hcsr04/hcsr04.o
+
+.debug_macro
+ *(.debug_macro)
+
+.debug_names
+ *(.debug_names)
+
+.debug_rnglists
+                0x00000000      0x3a3
+ *(.debug_rnglists)
+ .debug_rnglists
+                0x00000000       0x31 src/main.o
+ .debug_rnglists
+                0x00000031       0xa0 src/app/animator.o
+ .debug_rnglists
+                0x000000d1       0x2b src/app/face.o
+ .debug_rnglists
+                0x000000fc       0x49 src/app/fsm.o
+ .debug_rnglists
+                0x00000145       0x6e src/app/mood.o
+ .debug_rnglists
+                0x000001b3       0x25 src/app/prng.o
+ .debug_rnglists
+                0x000001d8       0x32 src/app/sensors.o
+ .debug_rnglists
+                0x0000020a       0x3d src/drivers/adc.o
+ .debug_rnglists
+                0x00000247       0x19 src/drivers/buttons.o
+ .debug_rnglists
+                0x00000260       0x38 src/drivers/dotmatrix.o
+ .debug_rnglists
+                0x00000298       0x1f src/drivers/timing.o
+ .debug_rnglists
+                0x000002b7       0x2b ../../extern_libraries/pin/pin.o
+ .debug_rnglists
+                0x000002e2       0x19 ../../extern_libraries/spi/spi.o
+ .debug_rnglists
+                0x000002fb       0x7d ../../extern_libraries/max7219/max7219.o
+ .debug_rnglists
+                0x00000378       0x2b ../../extern_libraries/hcsr04/hcsr04.o
+
+.debug_str_offsets
+ *(.debug_str_offsets)
+
+.debug_sup
+ *(.debug_sup)
+OUTPUT(build/digital_companion.elf elf32-avr)
+LOAD linker stubs
