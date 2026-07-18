@@ -1,0 +1,11 @@
+Enter text: HELLO
+HELLO
+Enter text:
+Enter text: HELLO      <- static render of "HELLO" (5 digits), then re-prompt
+Enter text:
+(ABCDEFGHI sent -> ~4.5 s scroll -> blank -> re-prompt)
+
+Note: an earlier build required CR to terminate a line (shared readString);
+the Wokwi monitor sends LF only, so nothing rendered. Fixed by a local
+read_line() that accepts CR or LF. The literal "\r" lines above are from that
+first (pre-fix) attempt where the escape was sent as two bytes.

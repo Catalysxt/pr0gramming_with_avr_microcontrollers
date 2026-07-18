@@ -1,0 +1,9 @@
+# Wokwi inputs, in order
+# (Uno D11->DIN, D13->CLK, D10->CS; logic analyzer on the same 3 nets)
+
+write_serial "HELLO\n"        # static path (<= 8 chars)
+read_serial                  # -> prompt echoed "Enter text: HELLO" then re-prompt
+export_vcd trace.vcd          # 791 samples, 3 channels -> init + HELLO render
+
+write_serial "ABCDEFGHI\n"   # scroll path (> 8 chars)
+export_vcd trace-scroll.vcd   # 5767 samples -> 19 scroll windows

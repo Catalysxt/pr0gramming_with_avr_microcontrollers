@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "author": "Claude Code",
+  "editor": "wokwi",
+  "comment": "MAX7219 stopwatch. Wokwi has no MAX7219-driven 7-segment part, so the wokwi-max7219-matrix stands in: its SPI protocol (DIN/CLK/CS) is identical to the real two 4-digit 7-seg displays, so it exercises the exact same firmware path. Two pushbuttons on D6/D7 to GND drive start-pause and clear (firmware enables internal pull-ups). On real hardware, replace the matrix with a MAX7219 wired to the eight 7-seg digits (see docs/hardware_connections.md).",
+  "parts": [
+    { "type": "wokwi-arduino-uno", "id": "uno", "top": 0, "left": 0, "attrs": {} },
+    { "type": "wokwi-max7219-matrix", "id": "disp1", "top": -120, "left": 210, "attrs": {} },
+    { "type": "wokwi-logic-analyzer", "id": "la1", "top": 200, "left": 200, "attrs": {} },
+    { "type": "wokwi-pushbutton", "id": "btnStart", "top": 100, "left": -180, "attrs": { "color": "green", "label": "START/PAUSE" } },
+    { "type": "wokwi-pushbutton", "id": "btnClear", "top": 180, "left": -180, "attrs": { "color": "red", "label": "CLEAR" } }
+  ],
+  "connections": [
+    [ "uno:5V", "disp1:VCC", "red", [] ],
+    [ "uno:GND.1", "disp1:GND", "black", [] ],
+    [ "uno:11", "disp1:DIN", "green", [ "v0" ] ],
+    [ "uno:13", "disp1:CLK", "yellow", [ "v0" ] ],
+    [ "uno:10", "disp1:CS", "blue", [ "v0" ] ],
+    [ "uno:11", "la1:D0", "green", [ "v0" ] ],
+    [ "uno:13", "la1:D1", "yellow", [ "v0" ] ],
+    [ "uno:10", "la1:D2", "blue", [ "v0" ] ],
+    [ "uno:GND.2", "la1:GND", "black", [] ],
+    [ "uno:6", "btnStart:1.l", "green", [ "h0" ] ],
+    [ "uno:7", "btnClear:1.l", "orange", [ "h0" ] ],
+    [ "uno:GND.3", "btnStart:2.l", "black", [ "h0" ] ],
+    [ "btnStart:2.l", "btnClear:2.l", "black", [ "v0" ] ]
+  ]
+}

@@ -1,0 +1,5 @@
+[wokwi]
+version = 1
+# Comma-free artifact names (see Makefile TARGET note).
+firmware = "build/max7219_max7221.hex"
+elf = "build/max7219_max7221.elf"
