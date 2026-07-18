@@ -1,0 +1,9 @@
+# wokwi_read_pin results (uno digital pins)
+# scenario point                     partId pin  value   expected
+attract, boot                        uno    13   false   idle low  (SPI SCK, mode 0)   OK
+attract, boot                        uno    10   true    idle high (chain /LOAD CS)     OK
+attract, boot                        uno    9    false   silent    (buzzer OC1A/PB1)    OK
+after btnA spin attempts (later)     uno    9    false   -   (tone not caught by snapshot)
+after btnA spin attempts (later)     uno    9    false   -
+after btnA spin attempts (later)     uno    9    false   -
+after btnA spin attempts (later)     uno    9    false   -

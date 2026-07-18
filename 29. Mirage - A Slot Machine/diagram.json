@@ -1,0 +1,67 @@
+{
+  "version": 1,
+  "author": "Claude Code",
+  "editor": "wokwi",
+  "comment": "Slot machine. One SPI daisy chain of five wokwi-max7219-matrix parts sharing MOSI(D11)/CLK(D13)/CS(D10): m0 = score MAX7221 (Wokwi has no MAX7219 7-seg part, so a matrix stands in and shows the raw segment bytes as pixels -- same firmware path as real hardware), m1..m4 = the dot-matrix module's four 8x8 panels (left/center/right reels + accent). DOUT->DIN cascades the chain. Buttons on D6 (BTN_A spin/select) and D7 (BTN_B menu/long-press settings) to GND with firmware pull-ups. Buzzer on D9 (OC1A/PB1). On real hardware m0 is the two 4-digit 7-seg displays and m1..m4 are the 4-panel module (see docs/HARDWARE.md).",
+  "parts": [
+    { "type": "wokwi-arduino-uno", "id": "uno", "top": 200, "left": 0, "attrs": {} },
+
+    { "type": "wokwi-max7219-matrix", "id": "m0", "top": -180, "left": -180, "attrs": {} },
+    { "type": "wokwi-max7219-matrix", "id": "m1", "top": -180, "left": -30, "attrs": {} },
+    { "type": "wokwi-max7219-matrix", "id": "m2", "top": -180, "left": 120, "attrs": {} },
+    { "type": "wokwi-max7219-matrix", "id": "m3", "top": -180, "left": 270, "attrs": {} },
+    { "type": "wokwi-max7219-matrix", "id": "m4", "top": -180, "left": 420, "attrs": {} },
+
+    { "type": "wokwi-pushbutton", "id": "btnA", "top": 380, "left": -220, "attrs": { "color": "green", "label": "A SPIN" } },
+    { "type": "wokwi-pushbutton", "id": "btnB", "top": 460, "left": -220, "attrs": { "color": "blue", "label": "B MENU" } },
+
+    { "type": "wokwi-buzzer", "id": "bz1", "top": 400, "left": 300, "attrs": { "volume": "0.1" } },
+
+    { "type": "wokwi-logic-analyzer", "id": "la1", "top": 550, "left": 0, "attrs": {} }
+  ],
+  "connections": [
+    [ "uno:5V", "m0:VCC", "red", [ "v0" ] ],
+    [ "m0:VCC", "m1:VCC", "red", [ "v0" ] ],
+    [ "m1:VCC", "m2:VCC", "red", [ "v0" ] ],
+    [ "m2:VCC", "m3:VCC", "red", [ "v0" ] ],
+    [ "m3:VCC", "m4:VCC", "red", [ "v0" ] ],
+
+    [ "uno:GND.1", "m0:GND", "black", [ "v0" ] ],
+    [ "m0:GND", "m1:GND", "black", [ "v0" ] ],
+    [ "m1:GND", "m2:GND", "black", [ "v0" ] ],
+    [ "m2:GND", "m3:GND", "black", [ "v0" ] ],
+    [ "m3:GND", "m4:GND", "black", [ "v0" ] ],
+
+    [ "uno:11", "m0:DIN", "green", [ "v0" ] ],
+    [ "m0:DOUT", "m1:DIN", "green", [ "v0" ] ],
+    [ "m1:DOUT", "m2:DIN", "green", [ "v0" ] ],
+    [ "m2:DOUT", "m3:DIN", "green", [ "v0" ] ],
+    [ "m3:DOUT", "m4:DIN", "green", [ "v0" ] ],
+
+    [ "uno:13", "m0:CLK", "yellow", [ "v0" ] ],
+    [ "m0:CLK", "m1:CLK", "yellow", [ "v0" ] ],
+    [ "m1:CLK", "m2:CLK", "yellow", [ "v0" ] ],
+    [ "m2:CLK", "m3:CLK", "yellow", [ "v0" ] ],
+    [ "m3:CLK", "m4:CLK", "yellow", [ "v0" ] ],
+
+    [ "uno:10", "m0:CS", "blue", [ "v0" ] ],
+    [ "m0:CS", "m1:CS", "blue", [ "v0" ] ],
+    [ "m1:CS", "m2:CS", "blue", [ "v0" ] ],
+    [ "m2:CS", "m3:CS", "blue", [ "v0" ] ],
+    [ "m3:CS", "m4:CS", "blue", [ "v0" ] ],
+
+    [ "uno:6", "btnA:1.l", "green", [ "h0" ] ],
+    [ "uno:7", "btnB:1.l", "blue", [ "h0" ] ],
+    [ "uno:GND.2", "btnA:2.l", "black", [ "h0" ] ],
+    [ "btnA:2.l", "btnB:2.l", "black", [ "v0" ] ],
+
+    [ "uno:9", "bz1:1", "purple", [ "h0" ] ],
+    [ "uno:GND.3", "bz1:2", "black", [ "h0" ] ],
+
+    [ "uno:11", "la1:D0", "green",  [ "v0" ] ],
+    [ "uno:13", "la1:D1", "yellow", [ "v0" ] ],
+    [ "uno:10", "la1:D2", "blue",   [ "v0" ] ],
+    [ "uno:9",  "la1:D3", "purple", [ "v0" ] ],
+    [ "uno:GND.4", "la1:GND", "black", [ "v0" ] ]
+  ]
+}

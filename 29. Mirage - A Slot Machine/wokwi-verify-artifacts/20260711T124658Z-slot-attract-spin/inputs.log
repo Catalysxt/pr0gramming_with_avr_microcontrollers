@@ -1,0 +1,20 @@
+# Inputs driven (Wokwi MCP), in order
+# note: the Wokwi sim fast-forwards tens of seconds of sim time between tool
+# calls, so a held button (across two calls) always exceeds the 1 s long-press
+# threshold, and a same-message press+release lands below the 15 ms debounce
+# window. A controlled sub-second "short press" (SPIN/SELECT) was therefore not
+# reliably producible from the MCP tools.
+
+t~2.8s   sim started, attract mode
+         read uno pin13 (CLK)  -> false  (SPI idle low, mode 0)  OK
+         read uno pin10 (CS)   -> true   (CS idle high)          OK
+         read uno pin9  (BUZZ) -> false  (silent in attract)     OK
+btnA pressed=1        (held)
+t~66s    (held ~63 s of sim time -> registers as a LONG press, ignored in attract)
+btnA pressed=0        (release: long_fired -> no SHORT event)
+btnA pressed=1 / =0   (same message, dwell < debounce -> likely no event)
+btnA pressed=1 / =0   (same message, retry)
+         read uno pin9 x4 -> false,false,false,false (no tone caught)
+t~218s   sim still running, stable, no fault/reset
+         added wokwi-logic-analyzer to diagram, restarted sim
+         MCP server disconnected before VCD capture / further driving
