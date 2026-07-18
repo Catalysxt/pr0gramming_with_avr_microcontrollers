@@ -1,4 +1,4 @@
-# Digital Companion
+# Wisp - A Digital Companion
 
 An expressive **8×8 dot-matrix face** on an ATmega328P (bare-metal C) whose
 emotions are *caused* by what it senses, not played back on a schedule. A hand
