@@ -1,4 +1,4 @@
-# Slot Machine — ATmega328P
+# Mirage - A Slot Machine
 
 A self-contained casino slot machine in bare-metal AVR C. Three reels scroll on a
 4-panel 8×8 dot-matrix, credits and last-win show on two 4-digit 7-segment
