@@ -2,21 +2,7 @@
 
 ## Overview
 
-ANVIL is bare-metal AVR-C firmware for an ATmega328P @ 16 MHz that turns
-a 4×4 matrix keypad, a 16×2 HD44780 LCD, two LEDs, and a passive piezo
-buzzer into an EEPROM-backed electronic safe: PIN entry with masked/
-reveal-then-mask digits, 3-strike lockout with a live countdown, a
-10-second auto-relock window, a 30-second idle screensaver, and a
-guarded change-PIN flow. No Arduino framework — direct register access
-throughout, non-blocking superloop, no delay longer than the LCD's own
-~2 ms command-completion waits.
-
-**Threat model: this is a demonstration project, not a real security
-device.** The PIN is stored in plaintext (as ASCII digits) in internal
-EEPROM, there's no tamper detection, no rate-limiting beyond the
-in-RAM 3-strike counter (which resets on power-cycle by design), and
-nothing here is rated to physically secure anything of value. Treat it
-as a firmware-engineering and electronics exercise.
+ANVIL turns an ATmega328P (and other components) into an electronic safe!
 
 ## Hardware
 
