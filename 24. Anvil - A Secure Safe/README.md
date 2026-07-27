@@ -108,11 +108,11 @@ re-flashing; `make clear_eeprom_save_fuse` reverts it.
 Flash: 5322 / 32768 bytes (~16%). SRAM: 272 / 2048 bytes (~13%). Well
 under the 75% warning threshold for both.
 
-## Stretch goals
+## Extensions
 
+- **V2 (explicitly out of scope for this build)**: a solenoid actuator
+  that physically locks/unlocks access to whatever the safe contains.
 - PD0/PD1 (RXD/TXD) are reserved and untouched — a serial console for
   remote status/logging would be a natural extension.
 - LCD backlight PWM dimming (the idle screensaver currently just clears
-  the display and turns it off; no backlight control exists yet).
-- **V2 (explicitly out of scope for this build)**: a solenoid actuator
-  that physically locks/unlocks access to whatever the safe contains.
+  the display and turns it off; no backlight control exists yet). This would be beneficial to minimize power consumption
