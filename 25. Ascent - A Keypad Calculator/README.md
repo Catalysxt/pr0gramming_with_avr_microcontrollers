@@ -116,7 +116,7 @@ make fuses      # set fuses for the external 16 MHz crystal (LFUSE=0xF7 HFUSE=0x
 Flash: 5244 / 32768 bytes (~16%). SRAM: 251 / 2048 bytes (~12%). Well
 under the 75% warning threshold for both.
 
-## Stretch goals
+## Extensions
 
 Called out per spec, not implemented in this build:
 
