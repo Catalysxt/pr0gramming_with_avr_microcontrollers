@@ -1,7 +1,7 @@
 /*
  * game.c
  *
- * Purpose : Core game logic — faithful port of the original Arduino loop().
+ * Purpose : Core game logic 
  * Hardware : LCD display (via lcd_driver), buzzer (via buzzer module).
  * Datasheet: HD44780 §8 (custom char slots 0-7 writeable via WriteChar)
  *
