@@ -9,10 +9,8 @@ Dodge hills by jumping and crows by ducking. Your high score persists across pow
 
 A stick figure runs along a 16×2 character LCD. Hills scroll along row 1; crows (two-frame animated) scroll along row 0. Press **JUMP** to leap over hills and hold **DUCK** to pass under crows. Each obstacle successfully cleared earns one point. A passive piezo plays audio feedback on every action. The game is fully non-blocking: a Timer0 1 ms tick drives all timing, leaving the CPU free between game ticks.
 
-This project features:
-- An EEPROM-persisted high score shown on the splash screen and game-over screen
-- RNG seed from a floating ADC pin
-- Non-blocking architecture.
+## Features
+
 * **Button Polarity:** Active-low with internal pull-up
 * **Tick Scheduling:** `sys_millis()` non-blocking
 * **Tone Generation:** Timer2 CTC on OC2A
