@@ -13,6 +13,12 @@ This project features:
 - An EEPROM-persisted high score shown on the splash screen and game-over screen
 - RNG seed from a floating ADC pin
 - Non-blocking architecture.
+* **Button Polarity:** Active-low with internal pull-up
+* **Tick Scheduling:** `sys_millis()` non-blocking
+* **Tone Generation:** Timer2 CTC on OC2A
+* **RNG Seed:** Floating ADC2 – different each power cycle
+* **High Score:** EEPROM-persisted
+* **Splash Screen:** Title + current HI
 
 ---
 
@@ -82,17 +88,6 @@ Toolchain required: `avr-gcc`, `avr-binutils`, `avrdude` on PATH.
    - Screen shows score and high score on row 0.
    - Row 1 blinks "Jump to Continue".
 7. Press **JUMP** to restart immediately.
-
-**Behavioural differences from the original Arduino sketch:**
-
-| Aspect | Original | This port |
-| --- | --- | --- |
-| Button polarity | Active-high | Active-low with internal pull-up |
-| Tick scheduling | `delay(90)` blocking | `sys_millis()` non-blocking |
-| Tone generation | `tone()` | Timer2 CTC on OC2A |
-| RNG seed | Never seeded (same game every time) | Floating ADC2 — different each power cycle |
-| High score | Not tracked | EEPROM-persisted |
-| Splash screen | None | Title + current HI |
 
 ---
 
